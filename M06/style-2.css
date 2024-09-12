@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('1.png');
+    background-image: url('hero-banner.png');
     background-attachment: fixed;
     background-size: cover;
 }
