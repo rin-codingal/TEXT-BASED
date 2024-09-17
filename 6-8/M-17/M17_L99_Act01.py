@@ -10,3 +10,8 @@ print("type of c: ", type(c))
 
 d= True
 print("type of d: ", type(d))
+
+def myFunction(a,b):
+    return a + b
+
+myFunction(3,2)
