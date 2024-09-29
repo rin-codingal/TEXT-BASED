@@ -1,4 +1,4 @@
-def test(n):
+def onSquareTime(n):
     iteration = 0
     for i in range(0,n):
         for j in range(0,n):
@@ -9,9 +9,9 @@ def test(n):
     print(f"when n is {n}, iteration = {iteration}")
     print()
 
-test(5)
-test(4)
-test(3)
+onSquareTime(5)
+onSquareTime(4)
+onSquareTime(3)
 
 print()
 print("with every 'n', the time taken = n^2")
