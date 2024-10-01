@@ -12,7 +12,7 @@ def display():
 	res.insert(END, greet)
 	res.insert(END, message)
 
-
+#create widgets
 frame = Frame(master=window, height=200, width=360, bg="#00ffff")
 
 lbl1 = Label(frame, text="Full Name", bg="green", fg="white", width=12)
@@ -26,7 +26,6 @@ pass_entry = Entry(frame, show="*")
 
 res = Text(bg="white", fg="black")
 
-# Add Button, when pressed, message will be displayed
 btn = Button(text="Create Account", command=display, bg="red", fg="yellow")
 
 # Arrange all widgets
