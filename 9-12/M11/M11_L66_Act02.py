@@ -1,19 +1,18 @@
-def flips(num1,num2):
+def flips(n1,n2):
     flip = 0
-    while (num1 > 0 or num2 > 0):
-        t1 = num1 & 1
-        t2 = num2 & 1
+    while (n1 > 0 or n2 > 0):
+        t1 = n1 & 1
+        t2 = n2 & 1
 
         if t1 != t2:
             flip += 1
 
-        num1 >>= 1
-        num2 >>= 1
+        n1 >>= 1
+        n2 >>= 1
 
     return flip
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+fnum = int(input("Enter first number: "))
+snum = int(input("Enter second number: "))
 
-print("Number of flips needed: ", flips(num1, num2))
-
+print(f"Number of flips needed: {flips(fnum, snum)}")

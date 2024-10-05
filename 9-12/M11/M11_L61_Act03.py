@@ -8,4 +8,4 @@ def numberOfBits(n):
 
 n = int(input("Enter a number: "))
 
-print("Number of bits: ", numberOfBits(n))
+print(f"Number of bits: {numberOfBits(n)}")

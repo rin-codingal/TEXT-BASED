@@ -7,7 +7,7 @@ def setOrNot(number, n):
         else:
             print("NOT SET")
 
-number = int(input("Enter the number: "))
-n = int(input("Enter the bit position: "))
+numb = int(input("Enter the number: "))
+pos = int(input("Enter the bit position to be checked: "))
 
-setOrNot(number, n)
+setOrNot(numb, pos)

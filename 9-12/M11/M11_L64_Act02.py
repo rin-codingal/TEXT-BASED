@@ -1,12 +1,11 @@
-def powerOf4(number):
-     
+def powerOf4(n):     
     count = 0
      
     # If only 1 set bit exists
-    if (number & (~(number & (number - 1)))):         
+    if (n & (~(n & (n - 1)))):         
         # Count 0 bits before set bit
-        while(number > 1):
-            number >>= 1
+        while(n > 1):
+            n >>= 1
             count += 1
          
         # If count is even return true else false
@@ -16,9 +15,9 @@ def powerOf4(number):
             return False
  
  
-number = int(input("Enter your number : "))
+numb = int(input("Enter your number : "))
 
-if(powerOf4(number)):
-    print(number, 'is a power of 4')
+if(powerOf4(numb)):
+    print(f"{numb} is a power of 4")
 else:
-    print(number, 'is not a power of 4')
+    print(f"{numb} is not a power of 4")

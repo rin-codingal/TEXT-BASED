@@ -1,6 +1,5 @@
 # implemet circuit
 
-# Initialize variables with default values
 a=1
 b=0
 c=0
@@ -14,4 +13,4 @@ g = bXORc & bORc
 # Calculating final result
 final = aANDb ^ g
 
-print("q = ",final)
+print(f"aANDb ^ bXORc & bORc = {final}")

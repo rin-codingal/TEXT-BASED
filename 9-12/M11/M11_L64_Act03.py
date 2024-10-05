@@ -8,9 +8,10 @@ def computePower(x, y):
         else:
             result = result * x
             y = y - 1
+
     return result
 
 x = int(input("Enter x for x^y : "))
 y = int(input("Enter y for x^y : "))
 
-print("Total : ",(computePower(x, y)))
+print(f"Total : {(computePower(x, y))}")

@@ -5,6 +5,7 @@ def divide(ourdividend, ourDivisor):
 
     quotientNumber = 0
     tempNumber = 0
+
     for i in range(31, -1, -1):
         if (tempNumber + (ourDivisor << i) <= ourdividend):
             tempNumber += ourDivisor << i
@@ -14,7 +15,7 @@ def divide(ourdividend, ourDivisor):
         quotientNumber = -quotientNumber
     return quotientNumber
 
-a = int(input("Enter a for a/b: "))
-b = int(input("Enter b for a/b: "))
+x = int(input("Enter x (dividend) for x/y: "))
+y = int(input("Enter y (divisor) for x/y: "))
 
-print(f"Result of {a}/{b} is {divide(a,b)}")
+print(f"Result of {x}/{y} is {divide(x, y)}")

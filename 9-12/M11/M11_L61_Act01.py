@@ -1,14 +1,14 @@
-num1 = 10 
-num2 = 4
+fnum = 10 
+snum = 4
 
-print("num1 & num2 are:", num1, num2)
+print(f"fnum = {fnum} and snum = {snum}")
 
-print("num1 | num2 are:", num1 | num2)
+print(f"fnum | snum ={fnum | snum}")
 
-print("num1 ^ num2 are:", num1 ^ num2)
+print(f"fnum ^ snum = {fnum ^ snum}")
 
-print("num1 << num2 are:", num1 << num2)
-print("num1 >> num2 are:", num1 >> num2)
+print(f"fnum << snum = {fnum << snum}")
+print(f"fnum >> snum = {fnum >> snum}")
 
-print("~num1 are:", ~num1)
-print("~num2 are:", ~num2)
+print(f"~fnum = {~fnum}")
+print(f"~snum = {~snum}")

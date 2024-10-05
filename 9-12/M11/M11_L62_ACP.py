@@ -1,4 +1,3 @@
-
 def FirstSetBit(number): # function to find the rightmost set bit 
     # Position and mask variable
     position = 1
@@ -11,6 +10,6 @@ def FirstSetBit(number): # function to find the rightmost set bit
      
     return position
  
-number = int(input("Enter number : "))
+number = int(input("Enter a number : "))
 
-print("Position of the first set bit : ",FirstSetBit(number))
+print(f"Position of the first set bit : {FirstSetBit(number)}")

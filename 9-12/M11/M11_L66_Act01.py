@@ -14,11 +14,11 @@ def printPowerSet(set,SetSize):
         print()
  
 
-size = int(input("Enter array size : "))
+size = int(input("Enter array size: "))
  
 set = []
 for i in range(0,size):
-    n = int(input("Enter element : "))
+    n = int(input("Enter element of the array: "))
     set.append(n)
 
 print()

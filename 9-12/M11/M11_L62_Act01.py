@@ -1,16 +1,18 @@
 def numberOfBits(n):
-  ones = 0
-  zeroes= 0
-  
-  while (n):
-      if (n & 1 == 1):
-          ones += 1
-      else:
-          zeroes += 1
-      n >>= 1
+    ones = 0
+    zeroes= 0
+    
+    while (n):
+        if (n & 1 == 1):
+            ones += 1
+        else:
+            zeroes += 1
 
-  print("Number of ones =", ones, "\nNumber of zeroes =", zeroes)
+        n >>= 1
+
+    print(f"Number of ones = {ones}")
+    print(f"Number of zeroes = {zeroes}")
 
 
-number = int(input("Enter your number: "))
-numberOfBits(number)
+numb = int(input("Enter your number: "))
+numberOfBits(numb)

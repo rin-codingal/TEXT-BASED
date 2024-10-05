@@ -15,5 +15,5 @@ def reverseBits(number) :
          
     return reversed
      
-number = int(input("Enter your number : "))
-print("Number with reversed bits : ",reverseBits(number))
+numb = int(input("Enter your number : "))
+print(f"Number of reversed bits : {reverseBits(numb)}")

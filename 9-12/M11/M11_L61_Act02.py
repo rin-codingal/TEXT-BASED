@@ -7,7 +7,7 @@ def isEvenOdd(n):
 number = int(input("Enter your number: "))
 
 if isEvenOdd(number):
-  print(number, "is even")
+  print(f"{number} is even")
 
 else:
-  print(number, "is odd")
+  print(f"{number} is odd")
