@@ -22,5 +22,3 @@ print()
 
 sns.pairplot(df)
 plt.show()
-
-sns.heatmap(df.corr(),annot=True)

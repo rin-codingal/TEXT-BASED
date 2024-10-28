@@ -33,3 +33,5 @@ board.color("red")
 for i in range(6):
     board.forward(100)
     board.right(60)
+
+turtle.done()

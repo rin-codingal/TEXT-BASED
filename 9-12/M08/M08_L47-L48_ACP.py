@@ -1,4 +1,4 @@
-class shape:
+class shape: #parent class
     def __init__(self, w, l, n):
         self.width = w
         self.length = l

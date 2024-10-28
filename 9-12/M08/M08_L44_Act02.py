@@ -1,6 +1,10 @@
 my_set = {1,2,2,3,4,4,4}
 print("Set :", my_set)
 
+print()
+myset2 = {"mango", "strawberry", "mango"}
+print(myset2)
+
 my_set.add(5)
 print("Updated Set:", my_set)
 print()
