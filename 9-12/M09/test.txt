@@ -1,0 +1,2 @@
+Helo, this is just test for file handling in Python.
+Let's see whether we can display this text.
