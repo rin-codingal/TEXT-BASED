@@ -1,4 +1,4 @@
-+# Importing required libraries
+# Importing required libraries
 from textblob import TextBlob  # Library for Natural Language Processing (NLP) tasks like sentiment analysis
 import colorama  # Library to add colored text to the terminal for better user experience
 from colorama import Fore, Style  # Fore and Style are used to customize text color and style

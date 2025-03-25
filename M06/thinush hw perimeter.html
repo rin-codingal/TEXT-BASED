@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perimeter Calculator</title>
+</head>
+
+<body>
+    <script>
+        function perimeterCalculator() {
+            let choice = prompt("Welcome to Perimeter Calculator.\n\n Please Enter your Choice.\n1. Perimeter of Rectangle.\n2. Perimeter of Triangle.\n3. Perimeter of Circle.\n4. Perimeter of Square.");
+
+            let perimeter = 0;
+            switch (choice) {
+                case "1":
+                    let length = parseFloat(prompt("Enter length of rectangle:"));
+                    let width = parseFloat(prompt("Enter width of rectangle:"));
+                    perimeter = 2 * (length + width);
+                    alert("Perimeter of Rectangle: " + perimeter);
+                    break;
+                case "2":
+                    let side1 = parseFloat(prompt("Enter side 1 of triangle:"));
+                    let side2 = parseFloat(prompt("Enter side 2 of triangle:"));
+                    let side3 = parseFloat(prompt("Enter side 3 of triangle:"));
+                    perimeter = side1 + side2 + side3;
+                    alert("Perimeter of Triangle: " + perimeter);
+                    break;
+                case "3":
+                    let radius = parseFloat(prompt("Enter radius of circle:"));
+                    perimeter = 2 * Math.PI * radius;
+                    alert("Perimeter (Circumference) of Circle: " + perimeter.toFixed(2));
+                    break;
+                case "4":
+                    let side = parseFloat(prompt("Enter side of square:"));
+                    perimeter = 4 * side;
+                    alert("Perimeter of Square: " + perimeter);
+                    break;
+                default:
+                    alert("Invalid choice! Please refresh and enter a valid option.");
+            }
+        }
+
+        perimeterCalculator();
+    </script>
+</body>
+
+</html>

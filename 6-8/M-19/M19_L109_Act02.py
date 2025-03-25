@@ -1,7 +1,8 @@
 def weather_condition():
-  print("weather is pleasant in",spring)
-  print("weather is same in",autumn)
+    print("weather is pleasant in",x)
+    print("weather is same in",y)
 
-spring="autumn"
-autumn="winter"
+x="autumn"
+y="winter"
+
 weather_condition()

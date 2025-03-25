@@ -10,4 +10,5 @@ num = int(input("Enter a number: "))
 if num < 0:
     print("Factorial does not exist for negative numbers.")
 else:
-    print(f"The factorial of {num} is {factorial(num)}")
+    result = factorial(num) #calling function and save the return value in a variable
+    print(f"The factorial of {num} is {result}")

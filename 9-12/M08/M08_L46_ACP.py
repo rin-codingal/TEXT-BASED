@@ -1,13 +1,13 @@
 class Addition:
-    # Defininf a constructor
+    # Define a constructor
     def __init__(self,x,y,z):
-        self.num1=x
-        self.num2=y
-        self.num3=z
+        self.num1 = x
+        self.num2 = y
+        self.num3 = z
 
     def result(self):
-        self.num=self.num1 + self.num2 + self.num3
-        print("Total: ",self.num)
+        self.result = self.num1 + self.num2 + self.num3
+        print("Total: ",self.result)
 
 
 # object which calls the constructor

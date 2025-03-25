@@ -2,7 +2,7 @@ class Employee:
 
 	# Initializing (Constructor)
 	def __init__(self):
-		print('Employee created.')
+		print("Employee created.")
 
 	# Deleting (Destructor)
 	def __del__(self):

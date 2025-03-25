@@ -6,6 +6,9 @@ while var > 0:
    if var == 5:
       continue 
    
-   print ('\nCurrent variable value :', var)
-print ("\nGood bye!")
+   print ("Current variable value :", var)
+
+print()
+
+print ("Good bye!")
 
