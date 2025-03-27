@@ -39,12 +39,14 @@ class square(shape):
 x = 5
 y = 2
 print()
-rect = rectangle(x,y)
+
+rect = rectangle(x,y) #rectangle object
 rect.printdetail()
 print("area: ",rect.area())
 
 a = 5
 print()
-sq = square(a)
+
+sq = square(a) #square object
 sq.printdetail()
 print("area: ",sq.area())

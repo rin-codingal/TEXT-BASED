@@ -1,6 +1,6 @@
 # Program to count number of lines in this file
 # Opening a file
-file = open("test2.txt","r")
+file = open("9-12/M09/test2.txt","r")
 Counter = 0
 
 # Reading from file
