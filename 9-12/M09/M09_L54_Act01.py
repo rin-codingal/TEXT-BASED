@@ -42,7 +42,7 @@ def topwin():
     top = Toplevel()
     top.title("Denominations den_counter")
     top.config(bg="light yellow")
-    top.geometry("600x350+50+50")
+    top.geometry("650x400")
     
 
     label = Label(top, text="Enter total amount", bg="light yellow")

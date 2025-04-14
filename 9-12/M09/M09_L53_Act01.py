@@ -10,15 +10,14 @@ window.geometry('400x400')
 upload = Image.open("one-piece.jpg")
 
 # Convert this Image to Tkinter compatible image
-image = ImageTk.PhotoImage(upload)
+image2 = ImageTk.PhotoImage(upload)
 
 # Add image to Tkinter Label
-label = Label(window, image=image, height=250, width=300)
+label = Label(window, image=image2, height=250, width=300)
 label.place(x=50, y=20)
 
 label2 = Label(window, text="One Piece")
-label2.place(x=40, y=290)
+label2.place(x=200, y=290)
 
 # Run the application
 window.mainloop()
-

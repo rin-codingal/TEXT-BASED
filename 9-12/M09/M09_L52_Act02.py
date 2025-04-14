@@ -1,7 +1,7 @@
 import tkinter as tk
 
 window = tk.Tk()
-window.title("grid 3 rowa, 3 column")
+window.title("grid 3 rows, 3 column")
 
 for i in range(3):
     for j in range(3):

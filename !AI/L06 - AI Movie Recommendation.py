@@ -4,13 +4,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from textblob import TextBlob
 from colorama import init, Fore
 import time
-import sys
 
 # Initialize colorama
 init(autoreset=True)
-
-# Load and preprocess the dataset
-#df = pd.read_csv(r"C:\Users\nurin\Documents\CODINGAL\CLASS\PAID\TEXT-BASED\9-12\M18\titanic.csv")
 
 def load_data():
     try:

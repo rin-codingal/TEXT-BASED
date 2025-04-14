@@ -1,16 +1,16 @@
 # Function to create list of square of numbers
 def SquaredValues(beg, end):
-	lst = []
+	original_list = []
 	# store all the values of square of numbers 
 	# between given range in a list
 	for i in range(beg, end):
-		lst.append(i**2)
+		original_list.append(i**2)
 
 	lst_even = []
 	lst_odd = []
 
 	# check and store odd and even squares in seperate lists
-	for i in lst:
+	for i in original_list:
 		if i%2==0:
 			lst_even.append(i)
 		else:
@@ -21,8 +21,6 @@ def SquaredValues(beg, end):
 	
 beg = int(input("Enter starting range : "))
 end = int(input("Enter end range : "))
-
-
 SquaredValues(beg, end)
 
 

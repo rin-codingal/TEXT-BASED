@@ -1,4 +1,3 @@
-
 def hotel_cost(nights):
     return 140*nights
 
@@ -12,6 +11,8 @@ def plane_ride_cost(city):
         return 222
     elif "Los Angeles" == city:
         return 475
+    elif "London" == city:
+        return 275
 
 #Define a function called rental_car_cost with an argument called days    
 def rental_car_cost(days):
@@ -25,13 +26,12 @@ def rental_car_cost(days):
 #Define a function called trip cost with argument day, money and city
 def trip_cost(city, days, spending_money):
     return rental_car_cost(days) + hotel_cost(days) + plane_ride_cost(city) + spending_money
-	
+
 print("Cost of car rental: ",rental_car_cost(6))
 
 print("Cost of plane ride: ",plane_ride_cost("Los Angeles"))
 
 print("Cost of hotel room: ", hotel_cost(7))
 
-print("Total cost of the trip:",trip_cost("Los Angeles",7,500))
-
-print(trip_cost("Tampa",6,500))
+result = trip_cost("Los Angeles", 7, 500) #city, days, spending money
+print("Total cost of the trip to Los Angeles:", result)

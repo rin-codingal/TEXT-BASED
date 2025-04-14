@@ -1,5 +1,6 @@
 from tkinter import *
 
+#creating window
 window = Tk()
 window.title("Tkinter Sample Window")
 window.geometry("400x300") #width = 400, height = 300
@@ -12,7 +13,6 @@ button = Button(text="Click me, I am a button", bg="black", fg="yellow")
 
 # Entry 
 entry = Entry(fg="white", bg="red", width=30)
-
 
 greeting.pack()
 button.pack()

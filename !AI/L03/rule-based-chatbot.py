@@ -53,42 +53,43 @@ def provide_recommendations():
         response = input(Fore.YELLOW + "You: ").strip().lower()
 
         if response == "yes":
-            print(Fore.GREEN + f"TravelBot: Great! Have an amazing time in {suggestion}!")
+            print(f"{Fore.GREEN} TravelBot: Great! Have an amazing time in {suggestion}!")
         elif response == "no":
-            print(Fore.RED + "TravelBot: No worries! Let's find another place.")
+            print(f"{Fore.RED}TravelBot: No worries! Let's find another place.")
             provide_recommendations()  # Recur to suggest another destination
         else:
-            print(Fore.RED + "TravelBot: I didn't catch that. Let's start over.")
+            print(f"{Fore.RED}TravelBot: I didn't catch that. Let's start over.")
             provide_recommendations()  # Recur to handle unexpected input
     else:
-        print(Fore.RED + "TravelBot: Sorry, I don't have recommendations for that preference.")
+        print(f"{Fore.RED}TravelBot: Sorry, I don't have recommendations for that preference.")
 
     # Show the help options again
     show_help()
 
 # Function to offer packing tips
 def offer_packing_tips():
-    print(Fore.CYAN + "TravelBot: Where are you traveling to?")
-    destination = input(Fore.YELLOW + "You: ")
+    print(f"{Fore.CYAN} TravelBot: Where are you traveling to?")
+    destination = input(f"{Fore.YELLOW}You: ")
     destination = process_input(destination)  # Normalize the input
-    print(Fore.CYAN + "TravelBot: How many days will you be staying?")
-    days = input(Fore.YELLOW + "You: ")
-    print(Fore.GREEN + f"TravelBot: Packing tips for {days} days in {destination}:")
-    print(Fore.GREEN + "- Pack versatile clothing items.")
-    print(Fore.GREEN + "- Don't forget travel adapters and chargers.")
-    print(Fore.GREEN + "- Check the weather forecast before packing.")
+
+    print(f"{Fore.CYAN}TravelBot: How many days will you be staying?")
+    days = input(f"{Fore.YELLOW}You: ")
+    print(f"{Fore.GREEN}TravelBot: Packing tips for {days} days in {destination}:")
+    print(f"{Fore.GREEN}- Pack versatile clothing items.")
+    print(f"{Fore.GREEN}- Don't forget travel adapters and chargers.")
+    print(f"{Fore.GREEN}- Check the weather forecast before packing.")
 
 # Function to tell a joke
 def tell_joke():
     joke = random.choice(jokes)
-    print(Fore.YELLOW + f"TravelBot: {joke}")
+    print(f"{Fore.YELLOW}TravelBot: {joke}")
 
 # Main chat function
 def chat():
     name = greet_user()
     show_help()
     while True:
-        user_input = input(Fore.YELLOW + f"{name}: ")
+        user_input = input(f"{Fore.YELLOW}{name}: ")
         processed_input = process_input(user_input)
         if "recommendation" in processed_input or "suggest" in processed_input:
             provide_recommendations()

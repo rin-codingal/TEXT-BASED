@@ -1,8 +1,8 @@
 import array as arr
 
 # create an array
-array_num = arr.array('i', [1, 3, 5, 3, 7, 9, 3])
-print("Original array: "+str(array_num))
+array_num = arr.array('i', [1, 3, 5, 3, 3, 7, 9, 3])
+print("Original array: " + str(array_num))
 print()
 
 # count number of occurences

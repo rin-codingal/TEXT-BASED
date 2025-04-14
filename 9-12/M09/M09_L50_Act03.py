@@ -1,7 +1,7 @@
 # Program to remove lines starting with any prefix
 
-file1 = open("test3.txt","r")
-file2 = open("test4.txt","w")
+file1 = open("9-12/M09/test3.txt","r")
+file2 = open("9-12/M09/test4.txt","w")
 
 # reading each line from original text file
 for line in file1.readlines():		
