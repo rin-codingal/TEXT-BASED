@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Multiply every element in the array with 10</h3>
+        <h3>and store them in new array using map</h3>
+        <p id="result"></p>
+        
+        <script>
+            //original array
+            var numbers = [28, 6, 19, 95];
+            
+            function myFunction(num) {
+                return num * 10;
+            }
+
+            //new array
+            var newnumbers = numbers.map(myFunction);
+            document.getElementById("result").innerHTML = newnumbers;
+        </script>
+    </body>
+</html>
