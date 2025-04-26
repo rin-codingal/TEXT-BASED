@@ -14,7 +14,6 @@ def display_image(title, image):
     plt.axis("off")
     plt.show()
 
-
 def interactive_edge_detection(image_path):
     image = cv2.imread(image_path)
 

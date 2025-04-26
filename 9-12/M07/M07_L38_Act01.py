@@ -3,6 +3,8 @@ age = 17
 is_student = True
 weight = 43.7
 
+print("original data:")
+
 print("Name :", name)
 print("Data Type of Name is", type(name))
 print()

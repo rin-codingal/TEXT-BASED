@@ -20,6 +20,9 @@ print("the last 2 rows of data:")
 print(df.tail(2))
 print()
 
+
+
+
 #calculating data with null value
 print("data with null value:")
 print(df.isnull().sum())

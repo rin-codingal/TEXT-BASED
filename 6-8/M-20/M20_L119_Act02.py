@@ -2,8 +2,8 @@
 s1 = {2, 3, 1}
 s2 = {'b', 'a', 'c'}
 s3 = list(zip(s1, s2))
-print(s3,"\n")
-
+print(s3)
+print()
 
 # Zip elements of two lists
 # Print elements one by one, but elements of 2nd list will be in reverse order
@@ -12,7 +12,6 @@ list2 = [100, 200, 300, 400]
 
 for x, y in zip(list1, list2[::-1]):
     print(x, y)
-
 
 # Zip into dictionary
 stocks = ['reliance', 'infosys', 'tcs']

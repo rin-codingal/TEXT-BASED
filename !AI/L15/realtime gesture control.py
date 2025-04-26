@@ -20,11 +20,8 @@ while True:
         print("Error: Failed to capture image.")
         break
 
-
     # Convert to HSV for color filtering
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-
-
 
     # Define the range for skin color in HSV
     lower_skin = np.array([0, 20, 70], dtype=np.uint8)
@@ -53,20 +50,14 @@ while True:
             center_y = int(y + h / 2)
             cv2.circle(frame, (center_x, center_y), 5, (0, 0, 255), -1) # Red dot at center
 
-
-
     # Display the original and result frames
     cv2.imshow('Original Frame', frame)
     cv2.imshow('Filtered Frame', result)
 
-
-
     # Break the loop when 'q' is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-
-
-
+    
 cap.release()
 
 cv2.destroyAllWindows()

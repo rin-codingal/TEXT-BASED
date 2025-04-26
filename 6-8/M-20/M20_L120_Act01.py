@@ -17,8 +17,9 @@ for key in theBoard:
     board_keys.append(key)
 
 ''' 
-    We will have to print the updated board after every move in the game and thus we will make a function in which 
-    we'll define the printBoard function so that we can easily print the board everytime by calling this function. 
+    We will have to print the updated board after every move in the game and thus we will make a function 
+    in which     we'll define the printBoard function so that we can easily print the board everytime by 
+    calling this function. 
 '''
 
 def printBoard(board):

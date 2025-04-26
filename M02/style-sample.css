@@ -1,0 +1,13 @@
+h3 {
+	color: green;
+}
+
+/*id selector*/
+#p1 {
+    color: aqua;
+}
+
+/*class selector*/
+.p2 {
+    color: purple;
+}

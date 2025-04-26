@@ -1,3 +1,5 @@
+import keyword as kw
+
 #Print a Sentence
 print("Welcome to the world of programming!")
 
@@ -9,5 +11,5 @@ print("Hello Python \n")
 
 #Print all the keywords present in Python
 print("Keywords in Python are....")
-import keyword
-print(keyword.kwlist)
+
+print(kw.kwlist)
