@@ -4,17 +4,17 @@ class IOString():
     def __init__(self):
         self.str1 = ""
 
-	# function to get input from user
+	# method to get input from user
     def get_String(self):
         self.str1 = input("Enter String : ")
 
-	# function to print the string in upper case
+	# method to print the string in upper case
     def print_String(self):
         print("Result is :", self.str1.upper())
 
 # Object creation
-str1 = IOString()
+str_obj = IOString()
 
-# Call functions
-str1.get_String()
-str1.print_String()
+# Call method
+str_obj.get_String()
+str_obj.print_String()

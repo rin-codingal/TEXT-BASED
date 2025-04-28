@@ -12,6 +12,6 @@ print(codingal)
 
 # User Input
 name = input("enter your name: ")
-print("\nHello "+ name, "\nwelcome to codingal")
+print("Hello "+ name, "welcome to codingal")
 
 age = int(input("how old are you? "))

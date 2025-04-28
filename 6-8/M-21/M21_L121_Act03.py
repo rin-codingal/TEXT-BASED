@@ -7,14 +7,14 @@ class Parrot:
         self.name = nm
         self.age = h
 
-# instantiate the Parrot class
-blu = Parrot("Blu", 10)
-woo = Parrot("Woo", 15)
+# create the object of the Parrot class
+blu = Parrot("Blue", 10)
+woo = Parrot("Wooey", 15)
 
 # access the class attributes
-print("Blu is a {}".format(blu.species))
-print("Woo is also a {}".format(woo.species))
+print(f"Blue is a {blu.species}")
+print(f"Wooey is also a {woo.species}")
 
 # access the instance attributes
-print("{} is {} years old".format( blu.name, blu.age))
-print("{} is {} years old".format( woo.name, woo.age))
+print(f"{blu.name} is {blu.age} years old")
+print(f"{woo.name} is {woo.age} years old")
