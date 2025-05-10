@@ -74,6 +74,7 @@ def offer_packing_tips():
 
     print(f"{Fore.CYAN}TravelBot: How many days will you be staying?")
     days = input(f"{Fore.YELLOW}You: ")
+
     print(f"{Fore.GREEN}TravelBot: Packing tips for {days} days in {destination}:")
     print(f"{Fore.GREEN}- Pack versatile clothing items.")
     print(f"{Fore.GREEN}- Don't forget travel adapters and chargers.")
@@ -91,6 +92,7 @@ def chat():
     while True:
         user_input = input(f"{Fore.YELLOW}{name}: ")
         processed_input = process_input(user_input)
+        
         if "recommendation" in processed_input or "suggest" in processed_input:
             provide_recommendations()
         elif "pack" in processed_input or "packing" in processed_input:

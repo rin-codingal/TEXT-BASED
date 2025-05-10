@@ -13,7 +13,7 @@ def ai_number_guesser():
 
     print(f"🤖 Welcome to the AI Number Guesser, {name}! 🎉")
     print(f"Think of a number between {low} and {high}, and I'll try to guess it! 🧠✨")
-    input("🔑 Press Enter when you're ready...")
+    input("🔑 Press Enter when you're ready... ")
 
     while low <= high:
         guess = (low + high) // 2

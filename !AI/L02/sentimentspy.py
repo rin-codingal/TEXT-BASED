@@ -53,7 +53,7 @@ def analyze_sentiment(text):
             negative_count += 1  # Increment negative counter
             return f"\n{Fore.RED}💔 Negative sentiment detected, Agent {user_name}. (Score: {sentiment:.2f})"
         else:
-            negative_count += 1  # Increment negative counter
+            negative_count = negative_count + 1  # Increment negative counter
             return f"\n{Fore.RED}💔 Very Negative sentiment detected, Agent {user_name}. (Score: {sentiment:.2f})"
 
     except Exception as e:

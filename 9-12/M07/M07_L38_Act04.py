@@ -2,6 +2,8 @@
 x = input("Enter Value of x:")
 y = input("Enter Value of y:")
 
+print()
+
 # Swapping
 temp = x
 x = y

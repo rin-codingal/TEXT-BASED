@@ -50,6 +50,7 @@ def ai_move(board, ai_symbol, player_symbol):
             if check_win(board_copy, ai_symbol):
                 board[i] = ai_symbol
                 return
+            
     # Check if player could win on their next move, and block them
     for i in range(9):
         if board[i].isdigit():
@@ -58,6 +59,7 @@ def ai_move(board, ai_symbol, player_symbol):
             if check_win(board_copy, player_symbol):
                 board[i] = ai_symbol
                 return
+            
     # Choose a random move
     possible_moves = [i for i in range(9) if board[i].isdigit()]
     move = random.choice(possible_moves)

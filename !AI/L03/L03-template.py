@@ -19,14 +19,14 @@ jokes = [
 
 # Function to show help options
 
+    
 
 # Function to process user input
 
 
 # Function to provide travel recommendations
 
-# Function to check flight status (simulated)
-
+    # Show the help options again
 
 # Function to offer packing tips
 
@@ -38,4 +38,3 @@ jokes = [
 
 
 # Start the chatbot
-

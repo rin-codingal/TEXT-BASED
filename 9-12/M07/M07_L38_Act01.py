@@ -20,10 +20,12 @@ print()
 print("Weight :", weight)
 print("Data Type of weight is", type(weight))
 print()
+print()
 
-print("\n After Type Casting....")
+print("After Type Casting....")
 age = str(age)
 print(age)
+
 print("Data Type of age is", type(age))
 print()
 

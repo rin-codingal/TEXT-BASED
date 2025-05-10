@@ -1,5 +1,4 @@
 class myClass:
-
 	# private variable
 	__privateVar = 27;
 
