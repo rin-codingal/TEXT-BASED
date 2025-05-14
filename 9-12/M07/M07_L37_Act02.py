@@ -7,8 +7,8 @@ print(x)
 print(y)
 print(z)
 
-codingal = "codingal"
-print(codingal)
+word = "codingal"
+print(word)
 
 # User Input
 name = input("enter your name: ")
