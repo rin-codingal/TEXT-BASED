@@ -77,15 +77,18 @@ def execute_command(command):
                 f"{Fore.GREEN}Positive messages detected: {positive_count}\n"
                 f"{Fore.RED}Negative messages detected: {negative_count}\n"
                 f"{Fore.YELLOW}Neutral messages detected: {neutral_count}")
+    
     elif command == "reset":
         # Clear all data
         conversation_history.clear()
         positive_count = negative_count = neutral_count = 0  # Reset counters
         return f"{Fore.CYAN}🕵️ Mission reset! All previous data has been cleared."
+    
     elif command == "history":
         # Show all previous inputs and sentiments
         return "\n".join([f"{Fore.CYAN}Message {i+1}: {msg}" for i, msg in enumerate(conversation_history)]) \
                if conversation_history else f"{Fore.YELLOW}No conversation history available."
+    
     elif command == "help":
         # Display a list of available commands
         return (f"{Fore.CYAN}🔍 Available commands:\n"

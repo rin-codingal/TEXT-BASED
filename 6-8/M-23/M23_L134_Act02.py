@@ -13,15 +13,15 @@ def display():
 	res.insert(END, message)
 
 #create widgets
-frame = Frame(master=window, height=200, width=360, bg="#00ffff")
+new_frame = Frame(master=window, height=200, width=360, bg="#00ffff")
 
-lbl1 = Label(frame, text="Full Name", bg="green", fg="white", width=12)
-lbl2 = Label(frame, text="Email Id", bg="green", fg="white", width=12)
-lbl3 = Label(frame, text="Enter Password", bg="green", fg="white", width=12)
+LbL1 = Label(new_frame, text="Full Name", bg="green", fg="white", width=12)
+LbL2 = Label(new_frame, text="Email Id", bg="green", fg="white", width=12)
+LbL3 = Label(new_frame, text="Enter Password", bg="green", fg="white", width=12)
 
-name_entry = Entry(frame)
-email_entry = Entry(frame)
-pass_entry = Entry(frame, show="*")
+name_entry = Entry(new_frame)
+email_entry = Entry(new_frame)
+pass_entry = Entry(new_frame, show="*")
 
 
 res = Text(bg="white", fg="black")
@@ -29,15 +29,15 @@ res = Text(bg="white", fg="black")
 btn = Button(text="Create Account", command=display, bg="red", fg="yellow")
 
 # Arrange all widgets
-frame.place(x=20, y=0)
+new_frame.place(x=20, y=0)
 
-lbl1.place(x=20, y=20)
+LbL1.place(x=20, y=20)
 name_entry.place(x=150, y=20)
 
-lbl2.place(x=20, y=80)
+LbL2.place(x=20, y=80)
 email_entry.place(x=150, y=80)
 
-lbl3.place(x=20, y=140)
+LbL3.place(x=20, y=140)
 pass_entry.place(x=150, y=140)
 
 btn.place(x=130, y=210)

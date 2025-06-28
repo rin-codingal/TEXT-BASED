@@ -7,6 +7,7 @@ current_time = datetime.datetime.now()
 print("Time now at greenwich meridian is : ", end = "")   
 print(current_time)
 
-# print calendar of year 2021
+# print calendar of year 2025
 import calendar
-print("\n", calendar.calendar(2021))
+
+print("\n", calendar.calendar(2025))

@@ -1,4 +1,4 @@
-var = 10
+var = 11
 
 while var > 0:
    var = var - 1
@@ -11,4 +11,3 @@ while var > 0:
 print()
 
 print ("Good bye!")
-

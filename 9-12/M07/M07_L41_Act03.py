@@ -1,5 +1,4 @@
 # Program make a simple calculator
-
 # This function adds two numbers
 def add(x, y):
     return x + y
@@ -23,4 +22,3 @@ print("Sum :", add(num1, num2))
 print("Difference :", subtract(num1, num2))
 print("Product :", multiply(num1, num2))
 print("Quotient :", divide(num1, num2))
-

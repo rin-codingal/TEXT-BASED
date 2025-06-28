@@ -1,9 +1,9 @@
-print("Enter a Number (Numerator): ")
-numn = int(input())
-print("Enter a Number (denominator): ")
-numd = int(input())
+numn = int(input("Enter a Number (Numerator): "))
+numd = int(input("Enter a Number (denominator): "))
 
-if numn%numd==0:
-  print("\n" +str(numn)+ " is divisible by " +str(numd))
+print()
+
+if numn % numd == 0:
+  print(f"{numn} is divisible by {numd}")
 else:
-  print("\n" +str(numn)+ " is not divisible by " +str(numd))
+  print(f"{numn} is not divisible by {numd}")

@@ -17,5 +17,3 @@ while not done:
 	
 	# Make the changes visible
 	pygame.display.flip()  
-
-

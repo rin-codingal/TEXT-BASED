@@ -14,6 +14,15 @@ elif "bad" in feeling or "sad" in feeling: #negative tone
 else:
     print("I see. Sometimes its hard to put feelings into word")
 
+
+
+
+
+
+
+
+
+
 print()
 hobby = input("What's your favorite hobby? ")
 

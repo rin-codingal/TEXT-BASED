@@ -1,6 +1,6 @@
 rowSize = int(input("enter the number of rows: "))
 
-if rowSize%2==0: #even row
+if rowSize % 2 == 0: #even row
   halfDiamRow = int(rowSize/2)
 else: #odd row
   halfDiamRow = int(rowSize/2)+1

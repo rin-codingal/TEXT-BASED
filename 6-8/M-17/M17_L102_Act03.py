@@ -4,6 +4,7 @@ weight = float(input("enter your weight in kg: "))
 BMI = weight / ((height/100)**2)
 
 print(f"your BMI is {BMI}")
+
 print()
 
 if BMI<= 18.4 :

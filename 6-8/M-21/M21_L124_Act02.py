@@ -8,7 +8,7 @@ class Computer:
     def setMaxPrice(self, price):
         self.__maxprice = price
 
-#creae object
+#create object
 c = Computer()
 print("original price:")
 c.sell()

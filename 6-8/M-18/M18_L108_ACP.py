@@ -12,3 +12,4 @@ for i in range(4):
   pen.forward(s) 
   pen.left(90) 
 
+turtle.done()

@@ -20,6 +20,7 @@ aList = [100, 200, 300, 400, 500]
 print("original list:")
 print(aList)
 print()
+
 aList = aList[::-1]
 print("list in reverse order:")
 print(aList)

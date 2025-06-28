@@ -10,7 +10,7 @@ init(autoreset=True)
 
 def load_data():
     try:
-        df = pd.read_csv(r"C:\Users\nurin\Documents\CODINGAL\CLASS\PAID\TEXT-BASED\!AI\imdb_top_1000.csv")
+        df = pd.read_csv(r"C:\Users\nurin\Documents\CODINGAL\CLASS\PAID\TEXT-BASED\!AI\L06\imdb_top_1000.csv")
         df['combined_features'] = df['Genre'].fillna('') + ' ' + df['Overview'].fillna('')
         return df
     except FileNotFoundError:

@@ -9,16 +9,16 @@
             <h1>Navigational Links</h1>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#posts">Posts</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Home</a></li> <!--# means when we click it will stays in the same page-->
+                    <li><a href="#dog">About Dog</a></li> <!--go to the id dog-->
+
+                    <li><a href="#contact">Contact Us</a></li> <!--go to the id contact-->
                 </ul>
             </nav>
         </header>
 
-
         <main>
-            <section>
+            <section id="dog">
                 <article>
                     <h2>Facts About Dogs</h2>
                     <p>
@@ -31,6 +31,7 @@
                         Pavlov’s dogs are the perfect example of this.
                     </p>
                 </article>
+
                 <aside>
                     <p>
                         The dog is a domesticated descendant of the wolf. Also called the domestic dog, 
@@ -39,23 +40,22 @@
                         hunter-gatherers over 15,000 years ago before the development of agriculture.
                     </p>
                 </aside>
-            </section>
 
-            <figure>
-                <img src="dog_image.jpeg"/>
-                <figcaption>A cute dog.</figcaption>
-            </figure>
-            
-            <audio controls>
-                <source src="dog-barking-70772.mp3" type="audio/mp3">
-            </audio>
-            <video src="Dogs-year-in-15-seconds.mp4" width="300px" height="250px" controls></video>
-            <embed src="beautiful-day-cute-dog.gif"/>
+                <figure>
+                    <img src="dog_image.jpeg"/>
+                    <figcaption>A cute dog.</figcaption>
+                </figure>
+                
+                <audio controls>
+                    <source src="dog-barking-70772.mp3" type="audio/mp3">
+                </audio>
+
+                <video src="Dogs-year-in-15-seconds.mp4" width="300px" height="250px" controls></video>
+            </section>
         </main>
 
-
         <footer>
-            <p>Contact me at nurinn.codingal@gmail.com</p>
+            <p id="contact">Contact me at nurinn.codingal@gmail.com</p>
         </footer>
     </body>
 </html>

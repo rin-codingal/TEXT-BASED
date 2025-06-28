@@ -16,7 +16,7 @@ height, width, _ = image_rgb.shape
 rect1_width, rect1_height = 150, 150
 top_left1 = (20, 20)  # Fixed 20 pixels padding from top-left
 bottom_right1 = (top_left1[0] + rect1_width, top_left1[1] + rect1_height)
-cv2.rectangle(image_rgb, top_left1, bottom_right1, (0, 255, 255), 3)  # Yellow rectangle
+cv2.rectangle(image_rgb, top_left1, bottom_right1, (0, 0, 0), 3)  # black rectangle
 
 # Rectangle 2: Bottom-right corner
 rect2_width, rect2_height = 200, 150
@@ -27,11 +27,12 @@ cv2.rectangle(image_rgb, top_left2, bottom_right2, (255, 0, 255), 3)  # Magenta 
 # Step 3: Draw Circles at the Centers of Both Rectangles
 center1_x = top_left1[0] + rect1_width // 2
 center1_y = top_left1[1] + rect1_height // 2
+
 center2_x = top_left2[0] + rect2_width // 2
 center2_y = top_left2[1] + rect2_height // 2
 
 cv2.circle(image_rgb, (center1_x, center1_y), 15, (0, 255, 0), -1)  # Filled green circle
-cv2.circle(image_rgb, (center2_x, center2_y), 15, (0, 0, 255), -1)  # Filled red circle
+cv2.circle(image_rgb, (center2_x, center2_y), 15, (0, 0, 255), -1)  # Filled blue circle
 
 # Step 4: Draw Connecting Lines Between Centers of Rectangles
 cv2.line(image_rgb, (center1_x, center1_y), (center2_x, center2_y), (0, 255, 0), 3)

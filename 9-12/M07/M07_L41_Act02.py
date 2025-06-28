@@ -5,7 +5,7 @@ def recur_factorial(n):
    else:
        return n*recur_factorial(n-1)
 
-num = int(input("Enter a number"))
+num = int(input("Enter a number: "))
 
 # check if the number is negative
 if num < 0:
@@ -13,4 +13,5 @@ if num < 0:
 elif num == 0:
    print("The factorial of 0 is 1")
 else:
-   print("The factorial of", num, "is", recur_factorial(num))
+   result = recur_factorial(num) #calling function and save the value into a variable
+   print("The factorial of", num, "is", result)

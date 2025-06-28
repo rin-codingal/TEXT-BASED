@@ -9,10 +9,10 @@ count = 0
 
 #loop will find the occurence of character
 while(i < len(string)): #string operation
-    if(string[i] == char): #check each letter of the word whether it's the same as the character that we want to find
+    if(string[i] == char): #check each letter of the word whether it's the same as the character we want to find
         count = count + 1
 
     i = i + 1 #increase the i value until reach the length of the word. i is the position of each letter in the word
 
 #Display the result
-print("The total Number ",char, " character has occurred = ",count," times")
+print(f"The total Number {char} character has occurred = {count} times")

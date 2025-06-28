@@ -16,6 +16,7 @@ window.bind("<Key>", handle_keypress)
 def handle_click(event):
     print("The button was clicked!")
 
+#add widgets
 button = Button(text="Click me!")
 button.pack()
 

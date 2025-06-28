@@ -1,5 +1,4 @@
 #Level up this game
-
 import pygame
 import random
 from pygame import mixer

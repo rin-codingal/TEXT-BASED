@@ -15,16 +15,16 @@ for i in range(4):
 
 for i in range(4):
 	for j in range(3):
-		frame = Frame(
+		new_frame = Frame(
 			master=window,
 			relief=SUNKEN,
 			borderwidth=1,
 			bg="red"
 		)
 		
-		frame.grid(row=i, column=j, sticky="nsew")
+		new_frame.grid(row=i, column=j, sticky="nsew")
 
-		label = Label(master=frame, text=nums[i][j], bg="lime", font=("Arial", 18))
-		label.pack(expand=True, fill="both", padx=5, pady=5)
+		label2 = Label(master=new_frame, text=nums[i][j], bg="lime", font=("Arial", 18))
+		label2.pack(expand=True, fill="both", padx=5, pady=5)
 
 window.mainloop()

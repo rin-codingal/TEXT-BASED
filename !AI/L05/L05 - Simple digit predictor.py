@@ -29,5 +29,3 @@ for i in range(5):  # You can change the range to display more images (e.g., 10 
     plt.imshow(X_test.iloc[i].values.reshape(28, 28), cmap=plt.cm.binary)
     plt.title(f"Predicted: {y_pred[i]}, Actual: {y_test.iloc[i]}")
     plt.show()
-
-

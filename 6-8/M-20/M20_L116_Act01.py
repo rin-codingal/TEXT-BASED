@@ -27,6 +27,6 @@ _slice = tuplex[3:5]
 print(_slice)
 print()
 
-#if the start index isn't defined, is taken from the beg inning of the tuple
+#if the start index isn't defined, is taken from the beginning of the tuple
 _slice = tuplex[:6]
 print(_slice)

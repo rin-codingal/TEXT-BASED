@@ -5,7 +5,6 @@ units = int(input(" Please enter Number of Units you Consumed : "))
 # Then calculate amount and surcharge accordingly
 # surcharge is the tax value
 
-
 if(units < 50): # Check for units less than 50
     amount = units * 2.60 
     surcharge = 25 
@@ -27,4 +26,4 @@ else:
 # Calculate and Display the total electricity bill
 # total amount = amount + surcharge
 total = amount + surcharge
-print("\nElectricity Bill = %.2f"  %total)
+print(f"Electricity Bill = {total}")

@@ -5,14 +5,14 @@ markThree = int(input())
 markFour = int(input())
 markFive = int(input())
 
-tot = markOne+markTwo+markThree+markFour+markFive
+tot = markOne + markTwo + markThree + markFour + markFive
 avg = tot/5
 
-if avg>=91 and avg<=100:
+if 91 <= avg and avg <= 100:
     print("Your Grade is A1")
-elif avg>=81 and avg<91:
+elif avg>=81 and avg < 91:
     print("Your Grade is A2")
-elif avg>=71 and avg<81:
+elif avg>=71 and avg < 81:
     print("Your Grade is B1")
 elif avg>=61 and avg<71:
     print("Your Grade is B2")

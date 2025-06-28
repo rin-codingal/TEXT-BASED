@@ -16,6 +16,7 @@ if numLen >= 4:
 
   while num > 0: #iterate loop
     rem = num%10
+    
     if chk==numLen: 
       midOne = rem
     elif chk==(numLen-1): 
@@ -27,7 +28,7 @@ if numLen >= 4:
   prod = midOne * midTwo #product of middle digits
 
   #display the result
-  print("Product of Mid digits (" +str(midOne)+ " * " +str(midTwo)+ ") = ",prod)
+  print(f"Product of Mid digits ({midOne} * {midTwo}) = {prod}")
 
 else:
   print("It's not a 4 or more than 4-digit number!")

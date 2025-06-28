@@ -1,8 +1,9 @@
-n=int(input("Enter the number:"))
+n = int(input("Enter the number:"))
 
-if n < 15 :
-  print(f"{n} is smaller than 15")
+if n <= 15 :
+  print(f"{n} is smaller than or equals 15")
   print("I'm in the IF block")
+
 else:
   print(f"{n} is greater than 15")
   print("I'm in the ELSE block")

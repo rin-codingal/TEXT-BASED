@@ -6,4 +6,5 @@ def total_calc(bill_amount, tip_perc):
 
 bill = 150
 tip = 20
+
 total_calc(bill, tip) #passing arguments bill and tip

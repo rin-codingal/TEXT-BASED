@@ -2,7 +2,7 @@ try:
   num1, num2 = eval(input("Enter two numbers separated by comma: "))
   result = num1/num2
   print("Result is : ", result)
-  print("Result is : ", result1) # this is error
+  print("Result is : ", result2) # this is error
 
 except ZeroDivisionError:
   print("Division by zero is not allowed")

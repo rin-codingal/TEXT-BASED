@@ -1,7 +1,7 @@
 import cv2
 
 def apply_color_filter(image, filter_type):
-    """Apply the specified color filter to the image."""
+    #Apply the specified color filter to the image.
 
     # Create a copy of the image to avoid modifying the original
     filtered_image = image.copy()

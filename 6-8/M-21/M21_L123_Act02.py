@@ -20,5 +20,5 @@ class Employee(Person): #child class
 # creation of an object variable or an instance
 a = Employee('Jessica', 626012, 500000, "permanent employee")	
 
-# calling a function of the class Person using its instance
+# calling a method of the class Person using its instance
 a.display()

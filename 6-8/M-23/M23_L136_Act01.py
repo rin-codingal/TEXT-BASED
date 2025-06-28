@@ -4,7 +4,7 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename
 # Setup Root Window
 window = Tk()
 window.title("My Text Editor")
-window.geometry("600x500")
+window.geometry("600x500") #width = 600, height = 500
 window.rowconfigure(0, minsize=800, weight=1)
 window.columnconfigure(1, minsize=800, weight=1)
 

@@ -1,4 +1,4 @@
-num = int(input("Enter number to be checked :"))
+num = int(input("Enter number to be checked : "))
 
 flag = False
 

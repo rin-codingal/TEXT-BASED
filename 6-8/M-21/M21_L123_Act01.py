@@ -1,5 +1,4 @@
 class Vehicle: # parent class
-
     def __init__(self, nm, speed, mile):
         self.name = nm
         self.max_speed = speed

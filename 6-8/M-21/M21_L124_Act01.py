@@ -1,6 +1,6 @@
 class myClass:
 	# private variable
-	__privateVar = 27;
+	__privateVar = 27
 
 	# private method
 	def __privMeth(self):

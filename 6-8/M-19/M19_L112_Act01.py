@@ -2,8 +2,11 @@ try :
   num = int(input("Enter your number : "))
   print("the number entered is: ",num)
 
-except ValueError as e: #using value error
+except NameError as e: #using NameError
   print("Exception: ",e)
+
+except ValueError as ve: #using valueError
+  print("Exception: ",ve)
 
 print("I am outside the try-except block") #always executed and displayed the message
 print()

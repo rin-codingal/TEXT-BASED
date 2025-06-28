@@ -17,13 +17,13 @@ if( choice == 1 ): #condition 1 outer if statement
   else:
     print("you have selected scooter")
 
-
 elif( choice == 2 ): #outer elif statement
   print( "what type of car?" )
-  print("1.Sedan")
-  print("2.XUV")
+  print("1. Sedan")
+  print("2. XUV")
   
   choice3=int(input("enter your choice3 (1 or 2): "))
+
   if choice3==1: #inner if statement
   #condition for selecting the type of car
     print("you have selected sedan")

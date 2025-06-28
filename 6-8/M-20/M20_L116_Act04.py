@@ -9,6 +9,7 @@ sum = 0
 for sub in test_list: 
     for i in sub: 
         sum = sum + i 
+        
 res = sum / len(test_list) 
  
 # printing result 

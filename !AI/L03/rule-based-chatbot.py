@@ -69,13 +69,13 @@ def provide_recommendations():
 # Function to offer packing tips
 def offer_packing_tips():
     print(f"{Fore.CYAN} TravelBot: Where are you traveling to?")
-    destination = input(f"{Fore.YELLOW}You: ")
-    destination = process_input(destination)  # Normalize the input
+    user_dest = input(f"{Fore.YELLOW}You: ")
+    user_dest = process_input(user_dest)  # Normalize the input
 
     print(f"{Fore.CYAN}TravelBot: How many days will you be staying?")
     days = input(f"{Fore.YELLOW}You: ")
 
-    print(f"{Fore.GREEN}TravelBot: Packing tips for {days} days in {destination}:")
+    print(f"{Fore.GREEN}TravelBot: Packing tips for {days} days in {user_dest}:")
     print(f"{Fore.GREEN}- Pack versatile clothing items.")
     print(f"{Fore.GREEN}- Don't forget travel adapters and chargers.")
     print(f"{Fore.GREEN}- Check the weather forecast before packing.")

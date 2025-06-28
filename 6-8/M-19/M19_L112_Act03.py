@@ -8,6 +8,7 @@ while not valid: #outer loop
     while n%2 == 0: #inner loop
       print("bye")
       valid = True
+      break
 
   except ValueError:
     print("Invalid")

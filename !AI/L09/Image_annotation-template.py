@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # Step 2: Draw Two Rectangles Around Interesting Regions
 # Rectangle 1: Top-left corner
   # Fixed 20 pixels padding from top-left
-# Yellow rectangle
+# black rectangle
 
 # Rectangle 2: Bottom-right corner
   # 20 pixels padding
