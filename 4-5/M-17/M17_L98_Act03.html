@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Decoration, Text Transform</title>
+
+        <!--internal CSS-->
+        <style>
+            h1 {
+                text-decoration: overline;
+                text-transform: capitalize;
+            }
+
+            .text1 {
+                text-decoration: underline;
+                text-transform: capitalize;
+            }
+
+            .text2 {
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .text3 {
+                text-decoration: overline;
+                text-transform: lowercase;
+            }
+
+            .p1 {
+                text-decoration: line-through;
+                text-transform: uppercase;
+            }
+
+            .p2 {
+                text-decoration: underline;
+                text-transform: lowercase;
+            }
+
+            .p3 {
+                text-decoration: underline overline;
+                text-transform: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>typography</h1>
+        
+        <div class="text1">This is class text1</div> <br>
+        <div class="text2">This is class text2</div> <br>
+        <div class="text3">This is class text3</div>
+
+        <p class="p1">This is class p1</p>
+        <p class="p2">This is class p2</p>
+        <p class="p3">This is class p3</p>
+    </body>
+</html>

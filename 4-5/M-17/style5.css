@@ -1,0 +1,277 @@
+*{
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.parkinsans-<uniquifier> {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+
+body {
+  /* first lesson*/
+  background-color: #eeeeee;
+}
+header {
+  /* first lesson*/
+  background-color: brown;
+
+  /*fifth lesson*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  /* first lesson*/
+  background-color: aquamarine;
+  /*fourth lesson*/
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  /*fifth lesson*/ 
+  display: flex;
+  justify-content: center;
+    
+}
+#intro {
+  /* first lesson*/
+  background-color: lightpink;
+  /*second lesson*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*third lesson*/
+    text-align: center;
+}
+
+.main-section-content h2 {
+  /* first lesson*/
+  background-color: darkkhaki;
+  /*second lesson*/
+  font-family: Arial, Helvetica, sans-serif;
+  /* third lesson*/
+  padding: 5px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+#bestsellers,
+footer {
+  /* first lesson*/
+  background-color: lightyellow;
+}
+
+header,
+nav,
+#intro,
+#main-section,
+#bestsellers,
+footer {
+  /* first lesson*/
+  border: 1px solid black;
+}
+header,
+nav,
+#main-section {
+  /* first lesson*/
+  border-radius: 10px;
+}
+h1 {
+  /* first lesson*/
+  color: white;
+  /*second lesson*/
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Third Lesson*/
+    margin: 30px;
+}
+h2,
+p {
+  /* first lesson*/
+  color: #333333;
+}
+table,
+th,
+td {
+  /* first lesson*/
+  border: 1px solid black;
+}
+tr:last-child {
+  /* first lesson*/
+  color: red;
+}
+span {
+  /* first lesson*/
+  color: blue;
+}
+footer p:first-child span {
+  /* first lesson*/
+  color: red;
+}
+.teacher-info {
+  /* first lesson*/
+  border-radius: 5px;
+  /*third lesson*/
+  margin: 10px;
+  width: 400px;
+  box-shadow: 6px 0px 21px -3px #333333;
+  /*fifth lesson*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  /*first lesson*/
+  background-color: red;
+  color: white;
+    
+  /*second-lesson*/ 
+  font-size: 20px;
+  font-weight: bold;
+    
+  /*third lesson*/
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+
+  /*fourth lesson*/
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+}
+
+
+/*second lesson*/
+ul {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+li a:hover {
+  color: red;
+}
+
+p {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+/*third lesson*/
+nav li {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.teacher-info div:last-child {
+  margin-left: 50px;
+}
+
+.main-section-content {
+  padding: 20px;
+}
+
+table {
+  margin: auto;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+footer {
+  padding: 20px;
+  /*fifth lesson*/ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#bestsellers h2 {
+    padding: 20px;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+
+/* fourth lesson*/
+#book-reviews p,
+#book-reviews h3 {
+  position: relative;
+  left: 40%;
+  width: 400px;
+} 
+
+/* fifth lesson */
+
+#videos div{
+  display: flex;
+  justify-content: space-around;
+}
+
+#teachers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+ nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*sixth Lesson*/
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+#intro {
+  grid-area: intro;
+}
+
+#main-section {
+  grid-area: main-section;
+}
+
+#bestsellers {
+  grid-area: bestsellers;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-areas:
+    "header header header header intro"
+    "nav nav nav nav intro"
+    "main-section main-section main-section main-section bestsellers"
+    "footer footer footer footer footer";
+}
+
+
+
