@@ -6,7 +6,7 @@ class Animal(ABC):
 	def move(self):
 		pass
 
-# sub classes
+# sub classes / child classes
 class Human(Animal):
 	def move(self):
 		print("I can walk and run")
