@@ -1,5 +1,5 @@
 #input a word
-text = str(input("Enter a string: "))
+text = input("Enter a string: ")
 
 # Reverse String 
 # using step value as -1 to iterate in reverse
@@ -8,3 +8,10 @@ text = revText
 
 print("Reverse of Given String is:")
 print(text)
+
+print()
+
+#convert to uppercase
+message = "python is fun"
+upper = message.upper()
+print(upper)

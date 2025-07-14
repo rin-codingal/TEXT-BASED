@@ -1,5 +1,4 @@
 import cv2
-
 import numpy as np
 
 # Set up webcam capture
@@ -9,10 +8,7 @@ if not cap.isOpened():
     print("Error: Could not open webcam.")
     exit()
 
-
-
 while True:
-
     # Capture frame-by-frame
     ret, frame = cap.read()
 
@@ -61,4 +57,3 @@ while True:
 cap.release()
 
 cv2.destroyAllWindows()
-

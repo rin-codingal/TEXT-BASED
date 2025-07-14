@@ -4,10 +4,9 @@ y = "Nurinn"
 print(x)
 print(y)
 
-codingal = "codingal"
-print(codingal)
-
 # User Input
 name = input("enter your name: ")
+print()
 
-print("\nHello", name, "\nwelcome to codingal")
+print("Hello " + name)
+print("welcome to Codingal")

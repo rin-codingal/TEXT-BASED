@@ -1,5 +1,5 @@
 import turtle 
-t = turtle.Turtle()
+t = turtle.Turtle() #pen
 s = turtle.Screen()
 colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow'] 
 s.bgcolor('black') 
@@ -12,6 +12,7 @@ while True:
     t.width(x/100 + 1)
     t.forward(x) 
     t.left(59)
+    
   t.right(239)  
 
   for x in range(200, 0, -1): 

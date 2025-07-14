@@ -9,14 +9,15 @@ test_dict = {'Codingal' : 2,
 print("The original dictionary : " +  str(test_dict))
   
 # Initialize value 
-K = 2
+v = 2
   
 # Using loop
 # Selective key values in dictionary
-res = 0
+count = 0
+
 for key in test_dict:
-    if test_dict[key] == K:
-        res = res + 1
+    if test_dict[key] == v:
+        count = count + 1
       
 # printing result 
-print("Frequency of K is : " + str(res))
+print(f"Frequency of {v} is : " + str(count))

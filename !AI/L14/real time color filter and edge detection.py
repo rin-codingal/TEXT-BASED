@@ -2,10 +2,10 @@ import cv2
 #import numpy as np
 
 def apply_color_filter(image, filter_type):
-    """Apply the specified color filter to the image."""
+    """Apply the specified 
+    color filter to the image."""
 
     # Create a copy of the image to avoid modifying the original
-
     filtered_image = image.copy()
 
     if filter_type == "red_tint":
@@ -25,11 +25,11 @@ def apply_color_filter(image, filter_type):
 
     elif filter_type == "increase_red":
         # Increase the intensity of the red channel
-        filtered_image[:, :, 2] = cv2.add(filtered_image[:, :, 2], 50) # Increase red channel
+        filtered_image[:, :, 2] = cv2.add(filtered_image[:, :, 2], 50) # Increase red channel by 50
 
     elif filter_type == "decrease_blue":
         # Decrease the intensity of the blue channel
-        filtered_image[:, :, 0] = cv2.subtract(filtered_image[:, :, 0], 50) # Decrease blue channel
+        filtered_image[:, :, 0] = cv2.subtract(filtered_image[:, :, 0], 50) # Decrease blue channel 50
     
     elif filter_type == "sobel":
         gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

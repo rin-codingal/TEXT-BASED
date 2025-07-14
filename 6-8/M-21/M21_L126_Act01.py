@@ -16,6 +16,7 @@ class A:
 				
 ob1 = A(2)
 ob2 = A(3)
+
 print("Passed Values :", ob1.a, ob2.a)
 print(ob1 < ob2)
 print()
