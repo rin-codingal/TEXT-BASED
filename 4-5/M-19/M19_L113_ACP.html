@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color animation</title>
+
+        <style>
+            div {
+                width: 100px;
+                height: 200px;
+                background-color: red;
+                animation-name: example;
+                animation-duration: 5s;
+            }
+
+            @keyframes example {
+                0% { background-color: red;}
+                25% {background-color: yellow;} 
+                50% { background-color: bluw;}
+                100% {background-color: green;} 
+            }
+        </style>
+    </head>
+    <body>
+        <p> <b> NOTE:- </b> This rectangle is changing its color randomly </p> 
+    <div> </div>
+    </body>
+</html>

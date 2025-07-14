@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Manipulation</title>
+
+        <style>
+            .alert{
+                color: aqua;
+                background: green;
+                padding : 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id = "heading">Welcome</h1>
+            <p>Hello</p>
+        </header>
+
+        <p>Let's create a div</p>
+
+        <script>
+            /* Step One:- Creating a div and adding it to the document*/
+            let div = document.createElement('div');
+            div.id = "paragraph"
+            div.className = "alert";
+            div.innerHTML = "<p>Congrats! You have created a div. </p>";
+            document.body.append(div);
+            
+            /* Step two:- modifiying an HTML element*/
+            let heading = document.getElementById("heading");
+            heading.innerHTML = '&#128512';
+            
+            /*Step three:- modfifying another HTML element*/
+            document.querySelector('header p').innerHTML = "<strong>Good Job!</strong>";
+        </script>
+    </body>
+</html>

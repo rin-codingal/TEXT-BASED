@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jungle</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="plant.png" type="img">
+    </head>
+    <body>
+        <div class="logo">
+            <img class="logoimg" src="plant.png" width="100px">
+        </div>
+
+        <div class="navbar">
+            <a class="active" href="#">Home</a>
+            <a href="M19_L114_ACP-about.html">About</a>
+            <a href="M19_L114_ACP-contact.html">Contact us</a>
+        </div>
+
+        <br>
+
+        <center>
+            <img class="jungleimg" src="jungle.jpeg" width="300px">
+        </center>
+        <br>
+        <button class="button" onclick="plantintro()">Read</button>
+        <br>
+        <div id="introtext"></div>
+
+        <script>
+            function plantintro(){
+                document.getElementById("introtext").innerHTML="Plants are mainly multicellular organisms, predominantly photosynthetic eukaryotes of the kingdom Plantae. Historically, plants were treated as one of two kingdoms including all living things that were not animals, and all algae and fungi were treated as plants.";
+            }
+            function plantsecond(){
+                document.getElementById("introsecond").innerHTML="Carbon Dioxide is taken in by plants and replaced with oxygen. This makes plants very useful.";
+            }
+        </script>
+        <br>
+
+        <img class="jungleimg" src="tree.jpeg">
+        <br>
+        <button class="button" onclick="plantsecond()">Read</button>
+        <br>
+        <div id="introsecond"></div>
+        <br>
+
+        <section class="footer">
+            Created on 2025
+        </section>
+    </body>
+</html>
