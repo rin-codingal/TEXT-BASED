@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Methods in Array</title>
+    </head>
     <body>
         <h2>JavaScript Arrays</h2>
         <h2>join() and pop()</h2>
@@ -9,16 +14,17 @@
         </p>
 
         <p id="myjoin"></p>
-        <p id="myfirstpop"></p>
-        <p id="mysecondpop"></p>
+        <p id="original"></p>
+        <p id="mypop"></p>
 
         <script>
             var fruits = ["Banana","Orange","Apple","Mango"];
             
             document.getElementById("myjoin").innerHTML = fruits.join(" * ");
-            document.getElementById("myfirstpop").innerHTML = fruits;
+            document.getElementById("original").innerHTML = fruits;
+
             fruits.pop();
-            document.getElementById("mysecondpop").innerHTML = fruits
+            document.getElementById("mypop").innerHTML = fruits
         </script>
     </body>
 </html>

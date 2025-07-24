@@ -82,6 +82,7 @@ def check_full(board):
 def tic_tac_toe():
     print(Fore.YELLOW + "Welcome to Tic-Tac-Toe!")
     player_name = input(Fore.GREEN + "Please enter your name: ")
+    
     while True:
         board = ['1','2','3','4','5','6','7','8','9']
         player_symbol, ai_symbol = player_choice()

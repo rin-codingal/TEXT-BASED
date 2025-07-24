@@ -1,5 +1,4 @@
 class IOString():
-
 	# constructor to set default value
     def __init__(self):
         self.str1 = ""

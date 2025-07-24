@@ -17,8 +17,8 @@ SCROLL_SPEED = 300 # Positive value for scroll up, negative for scroll down
 SCROLL_DELAY = 1 # in seconds
 
 # Camera settings
-CAMERA_WIDTH = 640
-CAMERA_HEIGHT = 480
+CAMERA_WIDTH = 
+CAMERA_HEIGHT = 
 
 # ==============================
 
@@ -27,8 +27,8 @@ CAMERA_HEIGHT = 480
 # ==============================
 
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=1, # Maximum number of hands to detect
-        min_detection_confidence=0.7,min_tracking_confidence=0.7)
+hands = mp_hands.Hands(max_num_hands=, # Maximum number of hands to detect
+        min_detection_confidence=,min_tracking_confidence=)
 
 mp_draw = mp.solutions.drawing_utils
 
@@ -62,50 +62,37 @@ def detect_gesture(hand_landmarks, handedness):
     fingers = []
 
     # Define finger tip landmarks
-    finger_tips_ids = [mp_hands.HandLandmark.INDEX_FINGER_TIP,
-                        mp_hands.HandLandmark.MIDDLE_FINGER_TIP,
-                        mp_hands.HandLandmark.RING_FINGER_TIP,
-                        mp_hands.HandLandmark.PINKY_TIP
+    finger_tips_ids = [
                         ]
 
     # Retrieve necessary landmarks
-    thumb_tip = hand_landmarks.landmark[mp_hands.HandLandmark.THUMB_TIP]
-    thumb_ip = hand_landmarks.landmark[mp_hands.HandLandmark.THUMB_IP]
-    wrist = hand_landmarks.landmark[mp_hands.HandLandmark.WRIST]
+    
+
+
 
     # Check each finger (except thumb) to see if it's up
-    for tip_id in finger_tips_ids:
-        finger_tip = hand_landmarks.landmark[tip_id]
-        finger_pip = hand_landmarks.landmark[tip_id - 2] # PIP joint
-
-        if finger_tip.y < finger_pip.y:
-            fingers.append(1) # Finger is up
-        else:
-            fingers.append(0) # Finger is down
+    
 
     # Check if thumb is open
     if handedness == 'Right':
-        if thumb_tip.x > thumb_ip.x:
-            fingers.append(1) # Thumb is open
-        else:
-            fingers.append(0) # Thumb is closed
+         # Thumb is open
+         # Thumb is closed
 
     else:
-        if thumb_tip.x < thumb_ip.x:
-            fingers.append(1) # Thumb is open
+         # Thumb is open
         else:
-            fingers.append(0) # Thumb is closed
+             # Thumb is closed
 
     # Total number of fingers up
-    total_fingers = fingers.count(1)
+    
 
     # Determine gesture based on number of fingers up
     if total_fingers == 5:
-        return "scroll_up"
+        
     elif total_fingers == 0:
-        return "scroll_down"
+        
     else:
-        return "none"
+        
 
 
 
@@ -117,32 +104,22 @@ def detect_gesture(hand_landmarks, handedness):
 
 def main():
     # Initialize webcam
-    cap = cv2.VideoCapture(0)
-    cap.set(cv2.CAP_PROP_FRAME_WIDTH, CAMERA_WIDTH)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, CAMERA_HEIGHT)
+    
 
     if not cap.isOpened():
-        print("Error: Could not open webcam.")
+        
         return
 
-    pTime = 0 # Previous time for FPS calculation
-    last_scroll_time = 0 # Timestamp of the last scroll action
+     # Previous time for FPS calculation
+     # Timestamp of the last scroll action
 
-    print("Hand Gesture Scroll Control is running...")
-    print("Show an open palm to scroll up.")
-    print("Make a fist to scroll down.")
-    print("Press 'q' to exit.")
+    
 
     while True:
-        success, img = cap.read()
+        
 
-        if not success:
-            print("Failed to grab frame.")
-            break
-
-        img = cv2.flip(img, 1) # Flip the image for a mirror effect
-        img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-        results = hands.process(img_rgb)
+         # Flip the image for a mirror effect
+        
 
         gesture = "none"
         handedness = "Unknown"
@@ -154,13 +131,10 @@ def main():
             for hand_landmarks, hand_info in zip(results.multi_hand_landmarks, results.multi_handedness):
 
                 # Get hand label (Left/Right)
-                handedness_label = hand_info.classification[0].label
-                handedness = handedness_label
+                
 
                 # Draw hand landmarks on the image
-                mp_draw.draw_landmarks(img, hand_landmarks, mp_hands.HAND_CONNECTIONS,
-                                        mp_draw.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=2),
-                                        mp_draw.DrawingSpec(color=(0, 0, 255), thickness=2)
+                mp_draw.draw_landmarks(
                                         )
 
 
@@ -173,12 +147,12 @@ def main():
 
                 # Perform scrolling action based on gesture with delay
                 if gesture == "scroll_up" and (current_time - last_scroll_time) > SCROLL_DELAY:
-                    pyautogui.scroll(SCROLL_SPEED) # Scroll up
-                    last_scroll_time = current_time
+                     # Scroll up
+                    last_scroll_time = 
 
                 elif gesture == "scroll_down" and (current_time - last_scroll_time) > SCROLL_DELAY:
-                    pyautogui.scroll(-SCROLL_SPEED) # Scroll down
-                    last_scroll_time = current_time
+                     # Scroll down
+                    last_scroll_time = 
 
 
 
@@ -190,11 +164,7 @@ def main():
 
 
         # Display gesture and FPS on the image
-        cv2.putText(img, f'Gesture: {gesture}', (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
-
-        cv2.putText(img, f'FPS: {int(fps)}', (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
-
-        cv2.putText(img, f'Hand: {handedness}', (10, 130), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
+        
 
         # Show the image
         cv2.imshow("Hand Gesture Scroll Control", img)

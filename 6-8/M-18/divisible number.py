@@ -1,6 +1,5 @@
 numn = int(input("Enter a Number (Numerator): "))
 numd = int(input("Enter a Number (denominator): "))
-
 print()
 
 if numn % numd == 0:

@@ -35,22 +35,6 @@ fruit_List.reverse()
 print("Reversed List :", fruit_List)
 print()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print("Multiplication on List :", fruit_List*2)
 print()
 

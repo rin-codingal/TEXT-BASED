@@ -33,7 +33,6 @@ debounce_time = 1 # 1 second debounce between actions
 
 
 # Function to apply filters
-
 def apply_filter(frame, filter_type):
     if filter_type == 'GRAYSCALE':
         return cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -56,14 +55,11 @@ def apply_filter(frame, filter_type):
     return frame
 
 while True:
-
     success, img = cap.read()
 
     if not success:
         print("Failed to read frame from webcam.")
         break
-
-
 
     img = cv2.flip(img, 1) # Flip the image for a mirror effect
     img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)

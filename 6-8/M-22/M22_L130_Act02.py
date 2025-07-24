@@ -4,8 +4,7 @@ import random
 from pygame import mixer
   
 # Starting the mixer
-mixer.init()
-  
+mixer.init()  
   
 surf_color = (0, 142, 204)
 color = (0, 0, 0)
