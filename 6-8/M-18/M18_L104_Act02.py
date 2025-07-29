@@ -1,7 +1,7 @@
 #Input a word or sentence
 string = input("Please enter your own String : ")
 
-reverse = ('')
+reverse = ""
 
 #loop for printing in reverse 
 for i in string:

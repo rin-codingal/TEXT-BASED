@@ -1,5 +1,4 @@
 class class_reverse:
-
 	def __init__(self, word_s):
 		self.s = word_s
 		

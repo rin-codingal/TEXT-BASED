@@ -31,6 +31,7 @@ if response.status_code == 200:
             print(f"Wrong! The correct answer was: {question_data['correct_answer']}")
 
         print()
+        
     print(f"Your final score: {score}/{len(trivia_data['results'])}")
 
 else:

@@ -15,7 +15,6 @@ class Employee(Person): #child class
 
 		# invoking the __init__ of the parent class
 		Person.__init__(self, name, idnumber)
-
 				
 # creation of an object variable or an instance
 a = Employee('Jessica', 626012, 500000, "permanent employee")	

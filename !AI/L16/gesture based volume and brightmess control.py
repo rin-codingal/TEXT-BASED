@@ -65,7 +65,6 @@ while True:
 
             # Calculate the distance between thumb and index finger
             distance = hypot(index_pos[0] - thumb_pos[0], index_pos[1] - thumb_pos[1])
-    
 
             if hand_label == "Right": # Control volume with the right hand
                 vol = np.interp(distance, [30, 300], [min_vol, max_vol])
@@ -100,18 +99,12 @@ while True:
                 cv2.putText(img, f'Brightness: {int(brightness)}%', (90, 450), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 3)
 
     # Show the video feed with annotations
-
     cv2.imshow("Gesture Volume and Brightness Controller", img)
 
     # Break the loop if 'q' is pressed
-
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-    
-
 # Release the webcam and close all windows
-
 cap.release()
-
 cv2.destroyAllWindows()

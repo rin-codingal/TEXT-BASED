@@ -7,6 +7,7 @@ class Vehicle: # parent class
 class Bus(Vehicle): #child class
     pass
 
+#object creation
 School_bus = Bus("School Volvo", 180, 12)
 
 print("Vehicle Name: ", School_bus.name, "\nSpeed: ", School_bus.max_speed, "\nMileage: ", School_bus.mileage)

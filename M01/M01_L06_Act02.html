@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Group The Form Fields</title>
-  </head>
-  <body>
-	<fieldset>
-		<!-- The fieldset tag is used to group related elements in a form and draws a box around them-->
-		<legend>Personal Information:</legend>
-	  	<form>		  
-			<label>Full name:</label>
-			<!--placeholder attribute can be used to provide extra information about entry to be made-->
-			<input type="text" id="fname" placeholder="Enter Name"><br><br>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Group The Form Fields</title>
+  	</head>
+	<body>
+		<fieldset>
+			<!-- The fieldset tag is used to group related elements in a form and draws a box around them-->
+			<legend>Personal Information:</legend>
+			<form>
+				<label>Name</label> <br>
+				<input type="text" id="name"> <br><br>
 
-			<label>Email:</label>
-			<input type="text" id="email"><br><br>
+				<label>Email ID</label> <br>
+				<input type="text" id="email"> <br><br>
 
-			<label>Gender:</label><br>
-			<input type="radio" id="gender" value="female">Female<br>
-			<input type="radio" id="gender" value="male">Male<br><br>
-			
-			<label>Birthday:</label>
-			<input type="date" id="birthday" name="birthday"><br><br>		  
-	  	</form>
-	</fieldset>
-  </body>
+				<label>Password (This will be hidden)</label> <br>
+				<input type="password" id="contact"> <br><br>
+
+				<label>Gender</label><br>
+				<input type="radio" id="female" name="gender" value="Female">Female <br>
+				<input type="radio" id="male" name="gender" value="Male">Male <br><br>
+				
+				<label>Favourite City</label><br>
+				<input type="checkbox" id="city" value="Jakarta">Jakarta<br>
+				<input type="checkbox" id="city" value="Surabaya">Surabaya <br><br>
+				
+				<label>Birthday:</label>
+				<input type="date" id="birthday" name="birthday"><br><br>	
+				
+				<input type="submit">
+			</form>
+		</fieldset>
+	</body>
 </html>

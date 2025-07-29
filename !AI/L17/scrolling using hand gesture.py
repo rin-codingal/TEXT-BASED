@@ -40,22 +40,14 @@ mp_draw = mp.solutions.drawing_utils
 
 def detect_gesture(hand_landmarks, handedness):
     """
-
     Detects whether the hand gesture is an open palm or a closed fist.
 
-
     Args:
-
     hand_landmarks: The landmarks of the detected hand.
-
     handedness: 'Left' or 'Right' hand.
 
-
-
     Returns:
-
     A string indicating the gesture: "scroll_up", "scroll_down", or "none".
-
     """
 
     # List to hold the status of each finger (1: up, 0: down)
@@ -107,8 +99,6 @@ def detect_gesture(hand_landmarks, handedness):
     else:
         return "none"
 
-
-
 # ==============================
 
 # Main Function
@@ -147,8 +137,6 @@ def main():
         gesture = "none"
         handedness = "Unknown"
 
-
-
         if results.multi_hand_landmarks and results.multi_handedness:
 
             for hand_landmarks, hand_info in zip(results.multi_hand_landmarks, results.multi_handedness):
@@ -162,8 +150,6 @@ def main():
                                         mp_draw.DrawingSpec(color=(0, 255, 0), thickness=2, circle_radius=2),
                                         mp_draw.DrawingSpec(color=(0, 0, 255), thickness=2)
                                         )
-
-
 
                 # Detect the gesture
                 gesture = detect_gesture(hand_landmarks, handedness)
@@ -180,14 +166,10 @@ def main():
                     pyautogui.scroll(-SCROLL_SPEED) # Scroll down
                     last_scroll_time = current_time
 
-
-
         # Calculate Frames Per Second (FPS)
         cTime = time.time()
         fps = 1 / (cTime - pTime) if (cTime - pTime) > 0 else 0
         pTime = cTime
-
-
 
         # Display gesture and FPS on the image
         cv2.putText(img, f'Gesture: {gesture}', (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
@@ -199,8 +181,6 @@ def main():
         # Show the image
         cv2.imshow("Hand Gesture Scroll Control", img)
 
-
-
         # Exit the loop when 'q' is pressed
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
@@ -209,7 +189,5 @@ def main():
     cap.release()
     cv2.destroyAllWindows()
 
-
 if __name__ == "__main__":
     main()
-

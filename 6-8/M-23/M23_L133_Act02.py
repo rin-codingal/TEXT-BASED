@@ -7,7 +7,6 @@ window.title("Getting Started with Widgets")
 window.geometry("400x300")
 
 def display(): # Function to display a Message
-
 	name = name_entry.get()
 
 	# Declaring a global variable 
@@ -22,7 +21,7 @@ def display(): # Function to display a Message
 	text_box.insert(END, message)
 	text_box.insert(END, date.today())
 	
-# Add widgets
+# Create widgets
 lbl = Label(text="Hey There!", fg="white", bg="#072F5F", height=1, width=300)
 
 name_lbl = Label(text="Enter your Full Name below", bg="blue", fg="white")
@@ -33,7 +32,7 @@ text_box = Text(height=3)
 btn = Button(text="Display message", command=display, height=1, bg="red", fg="white")
 
 
-# Organize all the widgets in the window
+# Attaching all the widgets in the window
 lbl.pack()
 name_lbl.pack()
 name_entry.pack()

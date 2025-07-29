@@ -15,7 +15,6 @@ def get_random_fact():
     else:
         print("Failed to fetch fact")
 
-
 # Main loop to interact with the user
 while True:
     key = input("Press Enter to get a random fact or type 'q' to quit : ")
@@ -24,4 +23,3 @@ while True:
         break
 
     get_random_fact()
-
