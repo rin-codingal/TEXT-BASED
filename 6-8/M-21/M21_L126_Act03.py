@@ -1,7 +1,7 @@
 import random
 class FruitQuiz:
 	# Create a constructor
-	def __init__(self):		
+	def __init__(self):
 		# Create a dictionary of fruits as keys and color as value
 		self.fruits={'apple':'red',
 					'grape':'purple',
@@ -13,7 +13,7 @@ class FruitQuiz:
 		while (True):			
 			fruit, color = random.choice(list(self.fruits.items()))
 			
-			print("What is the color of {}".format(fruit))
+			print(f"What is the color of {fruit}")
 			user_answer = input()
 			
 			if(user_answer.lower() == color):

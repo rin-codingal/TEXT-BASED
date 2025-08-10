@@ -12,15 +12,19 @@ class py_solution:
             "X", "IX", "V", "IV",
             "I"
             ]
+        
         roman_num = ''
         i = 0
         while  num > 0:
             for _ in range(num // val[i]):
-                roman_num += syb[i]
+                roman_num = roman_num + syb[i]
                 num -= val[i]
             i += 1
+
         return roman_num
 
-
-print(py_solution().int_to_Roman(12))
-print(py_solution().int_to_Roman(35))
+#create object
+num1 = py_solution()
+num2 = py_solution
+print(num1.int_to_Roman(12))
+print(num2.int_to_Roman(35))

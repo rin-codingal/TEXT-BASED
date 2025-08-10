@@ -1,7 +1,7 @@
 class flashcard:
-	def __init__(self, word, meaning):
-		self.word = word
-		self.meaning = meaning
+	def __init__(self, w, m):
+		self.word = w
+		self.meaning = m
 
 	def __str__(self):		
 		#we will return a string

@@ -4,12 +4,10 @@ import pygame
 pygame.init()  
 
 # Setup window geometry
-screen = pygame.display.set_mode((400,500))  
-
-# Create a loop to run till the game is quit by the user
-done = False  
-  
-while not done: 
+screen = pygame.display.set_mode((400,500))
+screen.fill(255,255,255)
+ 
+while True: 
 	# Clear the event queue
 	for event in pygame.event.get():  
 		if event.type == pygame.QUIT:  

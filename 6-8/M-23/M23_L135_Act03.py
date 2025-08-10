@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 # Set-up the window
 window = tk.Tk()
 window.title("Temperature Converter")
@@ -12,16 +11,12 @@ def fahrenheit_to_celsius():
     celsius = (5/9) * (float(fahrenheit) - 32)
     lbl_result["text"] = f"{round(celsius, 2)} \N{DEGREE CELSIUS}"
 
-
 #create widgets
 frm_entry = tk.Frame(master=window)
-
 ent_temperature = tk.Entry(master=frm_entry, width=10)
-
 lbl_temp = tk.Label(master=frm_entry, text="\N{DEGREE FAHRENHEIT}")
 
 btn_convert = tk.Button(master=window, text="-->", command=fahrenheit_to_celsius)
-
 lbl_result = tk.Label(master=window, text="\N{DEGREE CELSIUS}")
 
 # arrange the widgets

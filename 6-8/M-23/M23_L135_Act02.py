@@ -13,5 +13,4 @@ def msg():
 btn = Button(window, text="Scan for Virus", command=msg)
 btn.place(x=75, y=80)
 
-
 window.mainloop()
