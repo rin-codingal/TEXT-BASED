@@ -87,6 +87,7 @@ while exit:
 	if sp1.rect.colliderect(sp2.rect):
 		all_sprites_list.remove(sp2)
 		text = "You win!"
+
 		#load the fonts  
 		font = pygame.font.SysFont("Courier", 72)  
 		
@@ -94,13 +95,13 @@ while exit:
 		text = font.render(text, True, (158, 16, 16))
 		screen.blit(text,(200 - text.get_width() // 2, 140 - text.get_height() // 2))
 		
-		# Loading the song
+		# Loading the audio
 		mixer.music.load("explosion.wav")
 		
 		# Setting the volume
 		mixer.music.set_volume(0.7)
 		
-		# Start playing the song
+		# Start playing the audio
 		mixer.music.play()
 		
 	pygame.display.update()

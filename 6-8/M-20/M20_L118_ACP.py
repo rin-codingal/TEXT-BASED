@@ -10,16 +10,8 @@ def sym_difference(set1, set2):
 
 seta1 = set(["green", "blue"])
 seta2 = set(["blue", "yellow"])
-
-setb1 = set([1, 1, 2, 3, 4, 5])
-setb2 = set([1, 5, 6, 7, 8, 9])
-
 resulta = sym_difference(seta1, seta2)
-resultb = sym_difference(setb1, setb2)
 
 print("Result of A Sets:")
 print(resulta)
 print()
-
-print("Result of B Sets:")
-print(resultb)

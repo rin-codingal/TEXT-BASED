@@ -1,6 +1,7 @@
 try:
   num1, num2 = eval(input("Enter two numbers separated by comma: "))
   result = num1/num2
+  
   print("Result is : ", result)
   print("Result is : ", result2) # this is error
 
@@ -14,7 +15,7 @@ except ValueError:
   print("Please enter numerical value")
 
 except NameError as ex:
-  print("The exception is ",ex)
+  print("The name error exception is ",ex)
   
 except:
   print("Some error occurred")

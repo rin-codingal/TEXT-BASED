@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Validate Form</title>
+
         <script>
             function validateForm() {
                 var x = document.forms["myForm"]["fname"].value;
@@ -18,8 +22,8 @@
     </head>
 
     <body>
-        <form name="myForm"  onsubmit="validateForm()">
-            Name: <input type="text" name="fname"><br><br>
+        <form name="myForm" onsubmit="validateForm()">
+            Name: <input type="text" name="fname"> <br><br>
             
             <input type="submit" value="Submit">
         </form>

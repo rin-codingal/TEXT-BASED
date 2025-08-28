@@ -9,5 +9,3 @@ print()
 setc = setc1.union(setc2)
 print("Union of above sets:")
 print(setc)
-
-

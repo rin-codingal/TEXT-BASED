@@ -11,7 +11,7 @@ print()
 
 # Use * operator
 triples = [5, 1, 7] * 3
-print("triple list")
+print("triple list:")
 print(triples)
 print()
 

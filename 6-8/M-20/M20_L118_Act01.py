@@ -25,5 +25,5 @@ print(num_set)
 print()
 
 num_set.pop()
-print("After removing the first element from the said set:")
+print("After removing the last element from the said set:")
 print(num_set)

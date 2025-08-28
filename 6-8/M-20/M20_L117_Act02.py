@@ -11,8 +11,7 @@ print("The original dictionary : " +  str(test_dict))
 # Initialize value 
 v = 2
   
-# Using loop
-# Selective key values in dictionary
+# Using loop Selective key values in dictionary
 count = 0
 
 for key in test_dict:
@@ -20,4 +19,4 @@ for key in test_dict:
         count = count + 1
       
 # printing result 
-print(f"Frequency of {v} is : " + str(count))
+print(f"Frequency of {v} is : {count}")

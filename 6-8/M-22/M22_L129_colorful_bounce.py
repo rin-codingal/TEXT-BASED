@@ -20,7 +20,6 @@ MAGENTA = pygame.Color('magenta')
 ORANGE = pygame.Color('orange')
 WHITE = pygame.Color('white')
 
-
 # Sprite class representing the moving object
 class Sprite(pygame.sprite.Sprite):
     # Constructor method
@@ -65,12 +64,10 @@ class Sprite(pygame.sprite.Sprite):
     def change_color(self):
         self.image.fill(random.choice([YELLOW, MAGENTA, ORANGE, WHITE]))
 
-
 # Function to change the background color
 def change_background_color():
     global bg_color
     bg_color = random.choice([BLUE, LIGHTBLUE, DARKBLUE])
-
 
 # Create a group to hold the sprite
 all_sprites_list = pygame.sprite.Group()

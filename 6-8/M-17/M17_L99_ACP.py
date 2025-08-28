@@ -1,6 +1,3 @@
-str = "Congratulations"
-print(str.lower())
+word = "CONGRATULATION"
+print(word.lower())
 print()
-
-x = input("Enter the word: ")
-print(x.upper())

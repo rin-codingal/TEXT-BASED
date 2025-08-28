@@ -7,20 +7,12 @@ def mutiple_tuple(nums):
 
     return product
 
-nums1 = (4, 3, 2, 2, -1, 18)
+nums = (4, 3, 2, 2, -1, 18)
 print ("Original Tuple: ")
-print(nums1)
+print(nums)
 print()
 
-result1 = mutiple_tuple(nums1)
+result = mutiple_tuple(nums)
 
-print("Product - multiplying all the numbers of the said tuple:",result1)
+print("Product - multiplying all the numbers of the said tuple:",result)
 print()
-
-nums2 = (2, 4, 8, 8, 3, 2, 9)
-print ("Original Tuple: ")
-print(nums2)
-print()
-result2 = mutiple_tuple(nums2)
-
-print("Product - multiplying all the numbers of the said tuple:",result2)
