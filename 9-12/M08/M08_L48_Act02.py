@@ -23,4 +23,3 @@ print("after using method setMaxPrice:")
 # using setter function
 c.setMaxPrice(1000)
 c.sell()
-

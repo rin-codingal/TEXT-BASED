@@ -1,8 +1,10 @@
-dict_1 = {1: "apple",
-          2: "orange",
-          3: "grape",
-          4: "mango",
-          5: "guava"}
+dict_1 = {
+            1: "apple",
+            2: "orange",
+            3: "grape",
+            4: "mango",
+            5: "guava"
+          }
 
 key = int(input("Enter 1-5 to get the fruit: "))
 

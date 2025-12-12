@@ -1,4 +1,4 @@
-age = int(input("how old are you?:"))
+age = int(input("how old are you?: "))
 
 if age >10:
     if age>=10 and age<=20:

@@ -1,12 +1,12 @@
-var = 11
+number = 11
 
-while var > 0:
-   var = var - 1
+while number > 0:
+   number = number - 1
    
-   if var == 5:
+   if number == 5:
       continue 
    
-   print ("Current variable value :", var)
+   print ("Current number value : ", number)
 
 print()
 

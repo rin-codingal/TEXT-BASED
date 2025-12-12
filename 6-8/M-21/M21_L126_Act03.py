@@ -8,7 +8,7 @@ class FruitQuiz:
 					'watermelon':'green',
 					'banana':'yellow'}
 
-	# Function for the quiz, here a fruit will be chosen randomly	
+	# Method for the quiz, here a fruit will be chosen randomly	
 	def quiz(self):
 		while (True):			
 			fruit, color = random.choice(list(self.fruits.items()))

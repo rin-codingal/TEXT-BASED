@@ -25,6 +25,7 @@ def player_choice():
     symbol = ''
     while symbol not in ['X', 'O']:
         symbol = input(Fore.GREEN + "Do you want to be X or O? ").upper()
+        
     if symbol == 'X':
         return ('X', 'O')
     else:

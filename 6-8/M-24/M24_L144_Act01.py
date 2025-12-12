@@ -44,6 +44,7 @@ print(df.corr(numeric_only=True))
 print()
 
 #heatmap
+plt.figure("Heatmap") # Set the window title
 sns.heatmap(df.corr(numeric_only=True), cmap= "Wistia", annot=True)
 plt.show()
 
@@ -63,23 +64,36 @@ print()
 print(df.species.value_counts())
 print()
 
+#countplot
+plt.figure("Countplot") # Set the window title
 sns.countplot(data=df, x="sex", palette="summer")
 plt.show()
 
+#countplot
+plt.figure("Countplot") # Set the window title
 sns.countplot(data=df, x="island", palette="RdPu")
 plt.show()
 
+#countplot
+plt.figure("Countplot") # Set the window title
 sns.countplot(data=df, x="species", palette="YlOrRd")
 plt.show()
 
+#countplot
+plt.figure("Countplot") # Set the window title
 sns.countplot(data= df, x="sex", palette="rocket", hue="species")
 plt.show()
 
+#countplot
+plt.figure("Countplot") # Set the window title
 sns.countplot(data= df, x= "island", hue="species", palette="husl")
 plt.show()
 
+#countplot
+plt.figure("Countplot") # Set the window title
 sns.countplot(data= df, x= "island", hue="sex", palette="spring")
 plt.show()
 
+#pairplot
 sns.pairplot(data=df, hue="species",palette="mako")
 plt.show()

@@ -11,17 +11,12 @@ if "good" in feeling or "great" in feeling or "fine" in feeling: #positive tone
     print("I'm glad to hear that!")
 elif "bad" in feeling or "sad" in feeling: #negative tone
     print("I'm sorry to hear that, hope things will get better")
+elif "hungry" in feeling:
+    print()
+elif "sleepy" in feeling:
+    print()
 else:
     print("I see. Sometimes its hard to put feelings into word")
-
-
-
-
-
-
-
-
-
 
 print()
 hobby = input("What's your favorite hobby? ")

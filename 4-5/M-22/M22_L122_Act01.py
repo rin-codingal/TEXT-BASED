@@ -4,8 +4,15 @@ class Rectangle():
         self.width  = w
 
     def rectangle_area(self):
-        return self.length*self.width
+        return self.length * self.width
+    
+    def rectangle_perimeter(self):
+        return 2 * (self.length + self.width)
 
-newRectangle = Rectangle(12, 10)
-print("Dimension of Rectangle - Length : %d Width : %d" % (newRectangle.length, newRectangle.width))
-print("Area of Rectangle :", newRectangle.rectangle_area())
+new_Rectangle = Rectangle(12, 10)
+
+print(f"Dimension of Rectangle - Length : {new_Rectangle.length} Width : {new_Rectangle.width}")
+
+print("Area of Rectangle :", new_Rectangle.rectangle_area())
+
+print("Perimeter of Rectangle :", new_Rectangle.rectangle_perimeter())

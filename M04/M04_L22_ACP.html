@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sum of  arguments and Math objects</title>
+    </head>
+
     <body>
         <p>Sum of  arguments and Math objects </p>
         <p id="demo"></p>
@@ -8,7 +14,7 @@
             function sumAll() {
                 var sum = 0;
                 for(i = 0; i < arguments.length; i++) {
-                    sum += arguments[i];
+                    sum = sum + arguments[i];
                 }
                 return sum;
             }
@@ -23,7 +29,6 @@
             
             var value2 = Math.tan(45);
             document.write("Tan 45 is : " + value2 +"<br>");
-
         </script>
     </body>
 </html>

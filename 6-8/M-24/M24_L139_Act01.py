@@ -1,6 +1,7 @@
 import numpy as np
 
 data_type = [("name", "S15"), ("grade", int), ("weight", float)]
+
 students_details = [("Jerome", 7, 53.5), ("Nicole", 9, 60.5),("Shawn", 5, 64.10), ("Tasya", 11, 57.11)]
 
 # create a structured array

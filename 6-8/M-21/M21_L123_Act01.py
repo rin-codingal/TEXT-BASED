@@ -10,4 +10,6 @@ class Bus(Vehicle): #child class
 #object creation
 School_bus = Bus("School Volvo", 180, 12)
 
-print("Vehicle Name: ", School_bus.name, "\nSpeed: ", School_bus.max_speed, "\nMileage: ", School_bus.mileage)
+print(f"Vehicle Name: {School_bus.name}")
+print(f"Speed: {School_bus.max_speed}")
+print(f"Mileage: {School_bus.mileage}")

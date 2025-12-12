@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Horizontal Scrollspy</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style-scroll.css">
+    </head>
+
+    <body>
+        <nav id="horizontal-nav" class="navbar navbar-light bg-light">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link" href="#section1">Section 1</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section2">Section 2</a></li>
+        </ul>
+        </nav>
+
+        <div id="content-container" data-bs-spy="scroll" data-bs-target="#horizontal-nav" data-bs-offset="0">
+        <div id="section1" class="scroll-section">
+            <h1>Section 1</h1>
+            <h3>Codingal</h3>
+            <h5>
+                Codingal is on a mission to inspire school kids to fall in love with coding. 
+                Coding is proven to develop creativity, logical thinking and problem solving 
+                skills in kids. Coding is an essential skill of the future and more than 60% of 
+                all jobs in STEM-related fields require knowledge of code. Kids who start 
+                learning to code at a young age are guaranteed to become leaders, creators 
+                and 
+                entrepreneurs of the future.
+            </h5>
+                    
+            <p>Scroll this section.</p>
+        </div>
+
+        <div id="section2" class="scroll-section">
+            <h1>Section 2</h1>
+            <h3>Codingal</h3>
+            <h5>Vivek Prakash and Satyam Baranwal are the founders of Codingal.</h6>
+            <p>Scroll this section.</p>
+        </div>
+        </div>
+    </body>
+</html>

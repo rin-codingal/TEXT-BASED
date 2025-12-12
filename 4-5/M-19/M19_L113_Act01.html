@@ -7,14 +7,16 @@
 
         <style>
             h2 {
-            text-align: center;
+                text-align: center;
             }
+
             .rectangle {
-            border: 1px solid black;
-            width: 200px;
-            height: 200px;
-            margin: auto;
+                border: 1px solid black;
+                width: 200px;
+                height: 200px;
+                margin: auto;
             }
+
             .buttons {
                 padding: 20px;
                 width: 200px;
@@ -34,12 +36,14 @@
             let div = document.querySelector('.rectangle');
 
             function changeToCircle(){
-            div.style.borderRadius = "50%";
+                div.style.borderRadius = "50%";
             }
+
             function hide()
             {
                 div.style.display = "none";
             }
+
             function show()
             {
                 div.style.display = "block";
@@ -47,12 +51,13 @@
 
             div.onmouseenter  = function ()
             {
-            div.style.background = 'red';
+                div.style.background = 'red';
             }
+
             div.onmouseout = function ()
             {
-                div.style.background = 'none'
-            }
+                div.style.background = 'none';
+            }            
         </script>
     </body>
 </html>

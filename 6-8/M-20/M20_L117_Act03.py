@@ -1,6 +1,7 @@
 country_code = {'India' : '0091',
                 'Australia' : '0025',
-                'Indonesia' : '0062'}
+                'Indonesia' : '0062'
+                }
  
 # search dictionary for country code of Indonesia
 print("Country code for Indonesia -")

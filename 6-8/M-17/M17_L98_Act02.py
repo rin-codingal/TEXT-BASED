@@ -1,6 +1,7 @@
 # Creating different variables
 x = 5
 y = "Nurinn"
+
 print(x)
 print(y)
 

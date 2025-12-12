@@ -1,13 +1,13 @@
 #Input a word or sentence
-string = input("Please enter your own String : ")
+word = input("Please enter your own word or sentence : ")
 
 reverse = ""
 
 #loop for printing in reverse 
-for i in string:
+for i in word:
     reverse = i + reverse
 
 print() 
 
-print("The Original String = ", string)
+print("The Original String = ", word)
 print("The Reversed String = ", reverse)

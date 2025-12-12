@@ -1,5 +1,4 @@
 import random
-
 options = ["Rock", "Paper", "Scissors"]
 
 user_choice = input("Choose Rock, Paper, or Scissors: ")

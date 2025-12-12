@@ -1,4 +1,4 @@
-n = int(input("Enter the number:"))
+n = int(input("Enter the number: "))
 
 if n <= 15 :
   print(f"{n} is smaller than or equals 15")

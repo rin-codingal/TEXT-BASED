@@ -17,16 +17,20 @@
                 constructor(name) {
                     this.studentname = name;
                 }
+
                 static hello() {  // static method
                     return "Hello!!" ;
                 }
+
                 static welcome(x) {
                     return "Welcome " + x.studentname;
                 }
+
                 hi() {
                     return "Hi " + this.studentname;
                 }
             }
+            
             myname = new Student("Carol");
 
             //Call 'hello()' on the class Student and NOT on the 'myname' object because 'hello()' is a static method it cannot access object

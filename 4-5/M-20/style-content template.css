@@ -1,0 +1,50 @@
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('image-3.jpeg');
+    min-height: 400px;
+}
+
+.section {
+    
+}
+
+.section-light {
+    
+}
+
+.section-dark {
+    
+}
+
+.ptext {
+    
+}
+
+.ptext .border {
+    
+}
+
+.ptext .border.trans {
+    
+}
+
+@media(max-width:569px) {
+    .pimg1, .pimg2, .pimg3 {
+        
+    }
+}
+

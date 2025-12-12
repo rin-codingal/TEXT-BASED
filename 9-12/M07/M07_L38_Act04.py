@@ -10,5 +10,5 @@ x = y
 y = temp
 
 # Displaying results after swapping
-print("value of x after swapping", x)
-print("value of y after swapping", y)
+print("value of x after swapping: ", x)
+print("value of y after swapping: ", y)

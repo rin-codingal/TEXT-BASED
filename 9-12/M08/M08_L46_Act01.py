@@ -10,4 +10,3 @@ class Employee:
 
 obj = Employee()
 del obj
-

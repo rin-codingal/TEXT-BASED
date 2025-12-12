@@ -5,8 +5,7 @@ def converttobinary(n):
   print(n%2 , end=" " ) # printing the remainder of division by 2
 
 print()
-dec=int(input("enter a number to find it's binary value: "))
+dec = int(input("enter a number to find it's binary value: "))
 
 converttobinary(dec)
-print()
 print()

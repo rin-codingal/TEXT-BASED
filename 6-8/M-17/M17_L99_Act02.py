@@ -24,7 +24,7 @@ print()
 # Type casting to convert the datatype of variables
 print("After Type Casting....")
 age = str(age)
-print("age after typecasting: ",age)
+print("age after typecasting: "+age)
 print("Data Type of age is", type(age))
 
 weight = int(weight)

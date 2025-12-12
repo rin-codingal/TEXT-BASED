@@ -6,6 +6,7 @@ weight = 38.5
 
 # Printing Different Variables and their Data Type
 print("original:")
+
 print("Name :", name)
 print("Data Type of Name is", type(name))
 
@@ -23,6 +24,7 @@ print()
 
 # Type casting to convert the datatype of variables
 print("After Type Casting....")
+
 age = str(age)
 print("age after typecasting: ",age)
 print("Data Type of age is", type(age))

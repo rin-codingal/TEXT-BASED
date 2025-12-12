@@ -8,5 +8,5 @@ print("type of b: ", type(b))
 c = "coding"
 print("type of c: ", type(c))
 
-d = True
+d = False
 print("type of d: ", type(d))

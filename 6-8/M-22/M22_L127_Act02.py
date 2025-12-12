@@ -15,7 +15,7 @@ display_surface = pygame.display.set_mode((500, 500))
 pygame.display.set_caption('Image')  
   
 # creating a surface object, image is drawn on it.   
-image = pygame.image.load('Lesson 31/turtle.jpeg')  
+image = pygame.image.load('6-8/M-22/turtle.jpeg')  
 
 # Set the size for the image
 DEFAULT_IMAGE_SIZE = (200, 200)

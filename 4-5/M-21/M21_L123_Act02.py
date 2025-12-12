@@ -1,36 +1,41 @@
 import turtle
 
 turtle.Screen().bgcolor("Cyan")
+paper = turtle.Screen()
+paper.setup(700, 500)
 
-board = turtle.Turtle()
+pen = turtle.Turtle()
  
 # Triangle
-board.forward(100)
+angle3 = 360/3
+pen.forward(100)
  
-board.left(120)
-board.forward(100)
+pen.left(angle3)
+pen.forward(100)
  
-board.left(120)
-board.forward(100)
+pen.left(angle3)
+pen.forward(100)
 
 #move position
-board.penup()
-board.left(120)
-board.forward(200)
-board.pendown()
+pen.penup()
+pen.left(120)
+pen.forward(200)
 
+#start to draw
+pen.pendown()
 
 # Square
-board.forward(100)
-board.left(90)
+angle4 = 360/4
+pen.forward(100)
+pen.left(angle4)
 
-board.forward(100)
-board.left(90)
+pen.forward(100)
+pen.left(angle4)
 
-board.forward(100)
-board.left(90)
+pen.forward(100)
+pen.left(angle4)
 
-board.forward(100)
-board.left(90)
+pen.forward(100)
+pen.left(angle4)
 
 turtle.done()

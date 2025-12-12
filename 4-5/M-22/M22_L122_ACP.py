@@ -1,25 +1,17 @@
-class Area:
-  radius= 0
+class Circle:
+    radius= 0
+	
+    def Area_Of_Circle(self, radius):
+        AreaCircle = 3.14 * radius * radius
+        return AreaCircle
     
-  def AreaOfCircle(self,radius):
-    AreaCircle=3.14*radius*radius
-    return AreaCircle
-  
-  def PerimeterOfCircle(self,radius):
-    PerimeterCircle=2*3.14*radius
-    return PerimeterCircle
+    def Perimeter_Of_Circle(self, radius):
+        PerimeterCircle = 2 * 3.14 * radius
+        return PerimeterCircle
 
-AreaPerimeterOBJ=Area()
+my_circle = Circle()
+rad = int(input("enter radius here: "))
 
-Question=(input("Which of the following do you want to calculate? \n A)Area Of Circle \n B)Perimeter Of Circle \n"))
+print("Area of Circle :", my_circle.Area_Of_Circle(rad))
 
-if Question.upper()=="A":
-  radius=(int(input("Please enter the radius of the circle: \n")))
-  print("Area of the circle is :",AreaPerimeterOBJ.AreaOfCircle(radius))
-
-elif Question.upper()=="B":
-  radius=(int(input("Please enter the radius of the circle: \n")))
-  print("Perimeter of the circle is :",AreaPerimeterOBJ.PerimeterOfCircle(radius))
-
-else:
-  print("Please choose the correct option")
+print("Perimeter of Circle :", my_circle.Perimeter_Of_Circle(rad))

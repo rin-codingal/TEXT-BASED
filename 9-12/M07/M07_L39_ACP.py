@@ -8,4 +8,4 @@ print("Your attendance is ",result)
 if result < 75 :
      print("You are not eligible for exams")
 else:
-     print("You are eligible for writing exam")
+     print("You are eligible for attending exam")

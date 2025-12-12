@@ -47,12 +47,12 @@ def topwin():
 
     label = Label(top, text="Enter total amount", bg="light yellow")
     entry = Entry(top)
-    lbl = Label(top, text="Here are number of notes for each denomination", bg="light yellow")
+    Lbl = Label(top, text="Here are number of notes for each denomination", bg="light yellow")
 
-    l1 = Label(top, text="2000", bg="light yellow")
-    l2 = Label(top, text="1000", bg="light yellow")
-    l3 = Label(top, text="500", bg="light yellow")
-    l4 = Label(top, text="100", bg="light yellow")
+    L1 = Label(top, text="2000", bg="light yellow")
+    L2 = Label(top, text="1000", bg="light yellow")
+    L3 = Label(top, text="500", bg="light yellow")
+    L4 = Label(top, text="100", bg="light yellow")
 
     t1 = Entry(top)
     t2 = Entry(top)
@@ -93,12 +93,12 @@ def topwin():
     label.place(x=230, y=50)
     entry.place(x=200, y=80)
     btn.place(x=240, y=120)
-    lbl.place(x=140, y=170)
+    Lbl.place(x=140, y=170)
 
-    l1.place(x=180, y=200)
-    l2.place(x=180, y=230)
-    l3.place(x=180, y=260)
-    l4.place(x=180, y=290)
+    L1.place(x=180, y=200)
+    L2.place(x=180, y=230)
+    L3.place(x=180, y=260)
+    L4.place(x=180, y=290)
 
     t1.place(x=270, y=200)
     t2.place(x=270, y=230)

@@ -1,6 +1,7 @@
 def enterage(age):
     if age < 0:
-        raise ValueError("Only positive integers are allowed")
+        raise ValueError("negative number detected")
+    
     if age % 2 == 0:
         print("age is even")
     else:

@@ -1,3 +1,3 @@
 word = "CONGRATULATION"
-print(word.lower())
-print()
+low = word.lower()
+print(low)

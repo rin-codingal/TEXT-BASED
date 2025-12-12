@@ -1,6 +1,6 @@
-a=10
-b=12
-c=12
+a = 10
+b = 12
+c = 12
 
 print(a != b)
 print(b != c)
@@ -11,7 +11,7 @@ a = "python"
 b = "coding"
 
 if a != b:
-    print(f"{a} and {b} are different")
+    print(f"{a} and {b} are different word")
 
 print()
 

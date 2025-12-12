@@ -22,9 +22,9 @@ def display(): # Function to display a Message
 	text_box.insert(END, date.today())
 	
 # Create widgets
-lbl = Label(text="Hey There!", fg="white", bg="#072F5F", height=1, width=300)
+label = Label(text="Hey There!", fg="white", bg="#072F5F", height=1, width=300)
 
-name_lbl = Label(text="Enter your Full Name below", bg="blue", fg="white")
+name_label = Label(text="Enter your Full Name below", bg="blue", fg="white")
 name_entry = Entry() #text input
 
 text_box = Text(height=3)
@@ -33,8 +33,8 @@ btn = Button(text="Display message", command=display, height=1, bg="red", fg="wh
 
 
 # Attaching all the widgets in the window
-lbl.pack()
-name_lbl.pack()
+label.pack()
+name_label.pack()
 name_entry.pack()
 btn.pack()
 text_box.pack()

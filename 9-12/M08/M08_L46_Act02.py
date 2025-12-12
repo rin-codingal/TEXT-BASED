@@ -39,7 +39,9 @@ if __name__ == '__main__':
 
     while True:
         print(f"Hello {user_name}, welcome to the {books.name} library. Please choose an option:")
+
         print("1. Display Books\n2. Lend a Book\n3. Add a Book\n4. Return a Book\n5. Quit")
+        
         user_choice = input("Enter your choice to continue: ")
 
         if user_choice not in ['1', '2', '3', '4', '5']:

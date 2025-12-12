@@ -7,7 +7,7 @@ print(matrix_a)
 
 print()
 
-# Create a 1D array 'array_b' with values [5, 5, 5]
+# Create a ID array 'array_b' with values [5, 5, 5]
 array_b = np.array([5, 5, 5])
 print(f"array_b: {array_b}")
 

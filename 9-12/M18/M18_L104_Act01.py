@@ -61,7 +61,7 @@ print()
 
 Titanic = pd.concat([df, gender, pclass], axis=1)
 
-#Prdisplayinginting the Updated Dataset
+#displaying the Updated Dataset
 print("Updated dataset")
 print(Titanic.head())
 print()

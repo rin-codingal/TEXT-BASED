@@ -13,4 +13,3 @@ class student:
 ob = student() #create new object
 ob.introduction()
 ob.details()
-

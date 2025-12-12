@@ -12,9 +12,9 @@ def display():
 	textbox.insert(END, message)
 
 #add the widgets
-lbl1 = Label(text = "Enter Full Name", bg="red")
-lbl2 = Label(text = "Email Id", bg="red")
-lbl3 = Label(text = "Enter Password", bg="red")
+label1 = Label(text = "Enter Full Name", bg="red")
+label2 = Label(text = "Email Id", bg="red")
+label3 = Label(text = "Enter Password", bg="red")
 
 name_entry = Entry()
 email_entry = Entry()
@@ -25,13 +25,13 @@ textbox = Text(bg="#BEBEBE", fg="black")
 btn = Button(text = "Create Account", command=display)
 
 # Arrange all widgets
-lbl1.pack()
+label1.pack()
 name_entry.pack()
 
-lbl2.pack()
+label2.pack()
 email_entry.pack()
 
-lbl3.pack()
+label3.pack()
 pass_entry.pack()
 
 btn.pack()

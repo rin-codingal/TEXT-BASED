@@ -8,6 +8,4 @@ elif number<0:
   print("This is a negative number")
 
 else:
-  print("This is neutral")
-
-  
+  print("This is neutral")  

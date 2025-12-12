@@ -7,6 +7,8 @@ print(x)
 print(y)
 print(z)
 
+#print(x + y) # it will generate error
+
 word = "codingal"
 print(word)
 

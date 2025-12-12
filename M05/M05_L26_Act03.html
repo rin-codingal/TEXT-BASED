@@ -12,17 +12,18 @@
         <p id="details"></p>
 
         <script>
-            class Car {
+            class Car { //parent class
                 constructor(brand) {
                     this.carname = brand;
                 }
+                
                 myCar() {
                     return 'I have a ' + this.carname;
                 }
             }
 
-            class Model extends Car {
-                 constructor(brand, mod) {
+            class Model extends Car { //child class
+                constructor(brand, mod) {
                     super(brand);
                     this.model = mod;
                 }

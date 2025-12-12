@@ -5,5 +5,3 @@ for i in range(0, n): #outer loops for row
 		print("*", end=" ")
 
 	print()
-
-	

@@ -5,7 +5,6 @@ pygame.init()
 
 # Setup window geometry
 screen = pygame.display.set_mode((400,500))
-screen.fill(255,255,255)
  
 while True: 
 	# Clear the event queue

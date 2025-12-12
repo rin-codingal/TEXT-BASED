@@ -9,15 +9,15 @@ def intro():
 	# declaring name variable global so it can be accessed outside the function
 	global name
 	name = input() #asks for the name
-	print(name + ", we are going to play a game. I am thinking of a number between 1 and 100")
+	print(f"{name}, we are going to play a game. I am thinking of a number between 1 and 100")
 	
 	if(number%2==0):
-		x='even'
+		x = "even"
 	else:
-		x='odd'
+		x = "odd"
 		
 	print()
-	print("This is an {} number".format(x))
+	print(f"This is an {x} number")
 	time.sleep(.5)
 	
 	print("Go ahead. Guess!")
@@ -28,6 +28,7 @@ def pick():
 	#if the number of guesses is less than 6
 	while guessesTaken < 6:
 		time.sleep(.25)
+
 		#inserts the place to enter guess
 		enter=input("Guess: ") 
 
@@ -36,32 +37,36 @@ def pick():
 			guess = int(enter)    
 
 			if guess<=100 and guess>=1: 
-				guessesTaken=guessesTaken+1 #adds one guess each time the player is wrong
+				guessesTaken = guessesTaken + 1 #adds one guess each time the player is wrong
+
 				if guessesTaken<6:
-					if guess<number:
+					if guess < number:
 						print("The guess of the number that you have entered is too low")
-					if guess>number:
+
+					if guess > number:
 						print("The guess of the number that you have entered is too high")
+
 					if guess != number:
 						time.sleep(.5)
-						print("Try Again!")				
-					if guess==number:
+						print("Try Again!")
+
+					if guess == number:
 						break 
 			
-			if guess>100 or guess<1: 
+			if guess > 100 or guess < 1: 
 				print("That number isn't in the range!")
 				time.sleep(.25)
 				print("Please enter a number between 1 and 100")
 
 		except: #if a number wasn't entered
-			print("I don't think that ",enter," is a number. Sorry")
+			print(f"I don't think that {enter} is a number. Sorry")
 			
 	if guess == number:
 		guessesTaken = str(guessesTaken)
-		print('Good job, {}! You guessed my number in {} guesses!'.format(name, guessesTaken))
+		print(f"Good job, {name}! You guessed my number in {guessesTaken} guesses!")
 
 	if guess != number:
-		print('Nope. The number I was thinking of was ' + str(number))
+		print(f"Nope. The number I was thinking of was {number}")
 
 playagain="yes"
 
@@ -70,4 +75,3 @@ while playagain=="yes" or playagain=="y" or playagain=="Yes":
 	pick()
 	print("Do you want to play again?")
 	playagain=input()
-

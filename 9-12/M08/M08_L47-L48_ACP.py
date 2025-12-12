@@ -13,7 +13,6 @@ class rectangle(shape):
     def __init__(self, wi, le):
         shape_name = "rectangle"
         super().__init__(wi, le, shape_name)
-        
     
     def area(self):
         return self.width * self.length

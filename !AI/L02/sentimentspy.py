@@ -40,22 +40,16 @@ def analyze_sentiment(text):
         conversation_history.append(text)  # Save the input to the conversation history
 
         # Categorize the sentiment based on thresholds
-        if sentiment > 0.75:
-            positive_count += 1  # Increment positive counter
-            return f"\n{Fore.GREEN}🌟 Very Positive sentiment detected, Agent {user_name}! (Score: {sentiment:.2f})"
-        elif 0.25 < sentiment <= 0.75:
+        if 0.25 < sentiment <= 0.75:
             positive_count += 1  # Increment positive counter
             return f"\n{Fore.GREEN}😊 Positive sentiment detected, Agent {user_name}! (Score: {sentiment:.2f})"
         elif -0.25 <= sentiment <= 0.25:
             neutral_count += 1  # Increment neutral counter
             return f"\n{Fore.YELLOW}😐 Neutral sentiment detected."
-        elif -0.75 <= sentiment < -0.25:
+        else:
             negative_count += 1  # Increment negative counter
             return f"\n{Fore.RED}💔 Negative sentiment detected, Agent {user_name}. (Score: {sentiment:.2f})"
-        else:
-            negative_count = negative_count + 1  # Increment negative counter
-            return f"\n{Fore.RED}💔 Very Negative sentiment detected, Agent {user_name}. (Score: {sentiment:.2f})"
-
+        
     except Exception as e:
         # Handles any errors that might occur during sentiment analysis
         return f"{Fore.RED}An error occurred during sentiment analysis: {str(e)}"
@@ -151,6 +145,3 @@ def start_sentiment_chat():
 # Entry point to run the program
 if __name__ == "__main__":
     start_sentiment_chat()  # Start the Sentiment Spy chat
-
-
-

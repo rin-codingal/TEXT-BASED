@@ -6,7 +6,6 @@ body{
 #container{
 	width: 1000px;
 	height: 550px;
-	/*background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(i4.jpeg);*/
 	margin: 20px auto;	
 }
 #calculator{
@@ -35,3 +34,4 @@ body{
 }
 .operator:active, .number:active{
 	font-size: 13px;
+}

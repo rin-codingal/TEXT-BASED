@@ -1,5 +1,5 @@
 # Taking total amount as input from user
-Amount =int(input("Please Enter Amount for Withdraw :"))
+Amount = int(input("Please Enter Amount for Withdraw : "))
 
 # Calculating the number of notes of different denominations
 note_1 = Amount // 100

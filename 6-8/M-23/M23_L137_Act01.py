@@ -12,17 +12,17 @@ def topwin():
 	top.title("toplevel")
 	
 	# Adding a label widget to Top Window
-	l2 = Label(top, text = "This is top level window")
-	l2.pack()
+	L2 = Label(top, text = "This is top level window")
+	L2.pack()
 
 	top.mainloop()
 
 # Adding a label and button Widget to window (Main) Window
-l = Label(window, text = "This is Main window")
+L = Label(window, text = "This is Main window")
 btn = Button(window, text = "Click here to open top window", command = topwin)
 
 # Arranging widgets
-l.pack()
+L.pack()
 btn.pack()
 
 window.mainloop()

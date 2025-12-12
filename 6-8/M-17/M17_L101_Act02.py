@@ -1,11 +1,11 @@
-costprice =int(input("enter the cost price: "))
-sellingprice =int(input("enter the selling price: "))
+costprice = int(input("enter the cost price: "))
+sellingprice = int(input("enter the selling price: "))
 
 if sellingprice > costprice:
-  print("profit")
+    print("profit")
   
-  pt = sellingprice - costprice
-  print(pt)
+    pt = sellingprice - costprice
+    print(pt)
 
 else :
-  print("No profit")
+    print("No profit")

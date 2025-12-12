@@ -2,14 +2,18 @@
 my_dict = {}
 
 # dictionary with integer keys
-my_dict = {1: 'apple', 2: 'ball'}
+fruit_dict = {
+            1: 'apple', 
+            2: 'orange'
+           }
 
-# dictionary with mixed keys
-my_dict = {'name': 'Jenny', 1: [2, 4, 3]}
+print("fruit dictionary number 2 is:",fruit_dict[2])
 
-my_dict = {'name': 'Angel', 'age': 26}
+my_dict = {
+            'name': 'Angel', 
+            'age': 26
+            }
 
-# Output: Angel
 print(my_dict['name'])
 print(my_dict.get('age'))
 

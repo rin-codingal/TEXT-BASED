@@ -14,6 +14,5 @@ def getRandomDate(startDate, endDate):
     
     return randomDate
 
-
 result = getRandomDate("4/23/2025", "12/31/2025")
 print("Random Date = ", result)

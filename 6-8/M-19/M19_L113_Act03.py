@@ -11,3 +11,9 @@ print(math.tan(45))
 
 print()
 print("Factorial of 5: ",math.factorial(5))
+
+print()
+x = 5
+y = -7
+z = math.copysign(x,y)
+print("the copysign result = ",z)

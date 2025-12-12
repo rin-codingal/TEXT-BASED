@@ -15,10 +15,15 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
-num1 = int(input("Enter Number 1 : "))
-num2 = int(input("Enter Number 2 : "))
+num1 = int(input("Enter First Number : "))
+num2 = int(input("Enter Second Number : "))
 
-print("Sum :", add(num1, num2))
-print("Difference :", subtract(num1, num2))
-print("Product :", multiply(num1, num2))
-print("Quotient :", divide(num1, num2))
+a = add(num1, num2)
+b = subtract(num1, num2)
+c = multiply(num1, num2)
+d = divide(num1, num2)
+
+print("Sum :", a)
+print("Difference :", b)
+print("Product :", c)
+print("Quotient :", d)

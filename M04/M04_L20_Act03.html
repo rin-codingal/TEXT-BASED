@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Variables</title>
   </head>
 
   <body>
-    <p>A function can access variables defined inside the function:</p>
+    <p>
+      A function can access variables defined inside the function:
+    </p>
     
     <button type="button" onclick="myFunction()">Click Me!</button>
     <p id="demo"></p>
     <p id="demo1"></p>
+
     <script>
+      var b = 5;
 
       function myFunction() {
         var a = 4;
-        document.getElementById("demo").innerHTML = a * a;
+        document.getElementById("demo").innerHTML = a * b;
       } 
+
       document.getElementById("demo1").innerHTML = a;  
-    </script>
-    
+    </script>    
   </body>
 </html>

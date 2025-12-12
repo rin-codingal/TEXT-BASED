@@ -1,6 +1,6 @@
 import turtle 
 t = turtle.Turtle() #pen
-s = turtle.Screen()
+s = turtle.Screen() #paper
 colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow'] 
 s.bgcolor('black') 
 t.speed('fastest')

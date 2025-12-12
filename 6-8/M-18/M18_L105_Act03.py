@@ -14,6 +14,6 @@ while temp > 0:
 
 # display the result
 if num == sum:
-   print(num,"is an Armstrong number")
+   print(f"{num} is an Armstrong number")
 else:
-   print(num,"is not an Armstrong number")
+   print(f"{num} is not an Armstrong number")

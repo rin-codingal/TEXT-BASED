@@ -10,6 +10,7 @@ class Parrot:
 # create the object of the Parrot class
 blu = Parrot("Blue", 10)
 woo = Parrot("Wooey", 15)
+print()
 
 # access the class attributes
 print(f"Blue is a {blu.species}")

@@ -1,6 +1,6 @@
 temp = int(input("enter the temperature (in celcius): "))
 
 if temp < 25:
-    print("wear jacket or pullover")
+    print("it's cold, wear jacket or pullover")
 else:
-    print("wear light and soft clothes")
+    print("it's hot summer, wear light and soft clothes")

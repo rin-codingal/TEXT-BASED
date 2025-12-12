@@ -9,4 +9,4 @@ if num > 50:
 		print("And it is odd")
 
 else:
-	print("Number is less than 50")
+	print("Number is less than or equal 50")

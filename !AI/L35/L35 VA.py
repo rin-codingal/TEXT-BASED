@@ -29,8 +29,7 @@ def get_audio():
 
     return "" 
 
-def respond_to_command(command):
-
+def respond_to_command(command):    
     if "hello" in command:
         speak("Hi there! How can I help you today?")
 
