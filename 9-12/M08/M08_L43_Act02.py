@@ -38,8 +38,6 @@ dict3["address"] = "Surabaya"
 print(dict3)
 print()
 
-
-
 # access a particular element
 print("Address :", dict2.get("address"))
 print()

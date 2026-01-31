@@ -13,7 +13,7 @@ class FruitQuiz:
 		while (True):			
 			fruit, color = random.choice(list(self.fruits.items()))
 			
-			print(f"What is the color of {fruit}")
+			print(f"What is the color of {fruit}?")
 			user_answer = input()
 			
 			if(user_answer.lower() == color):

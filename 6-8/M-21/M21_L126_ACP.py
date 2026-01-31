@@ -25,6 +25,6 @@ class py_solution:
 
 #create object
 num1 = py_solution()
-num2 = py_solution
+num2 = py_solution()
 print(num1.int_to_Roman(12))
 print(num2.int_to_Roman(35))

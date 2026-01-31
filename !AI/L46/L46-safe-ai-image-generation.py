@@ -126,7 +126,7 @@ def main():
                     st.image(image, caption="Generated Image", use_container_width=True)                    
 
                     # Store image in session state for download outside form
-                    st.session_state.generated_image = image #malak until this line
+                    st.session_state.generated_image = image 
 
                 else:
                     st.error("Failed to generate image. Please try again with a different prompt.")

@@ -1,16 +1,14 @@
-class Parrot:
-    
+class Parrot:    
     # instance attributes
     def __init__(self, nm, h):
         self.name = nm
         self.age = h
-    
-    # instance method
+        
     def sing(self, song):
-        return "{} sings {}".format(self.name, song)
+        return f"{self.name} sings {song}"
 
     def dance(self):
-        return "{} is now dancing".format(self.name)
+        return f"{self.name} is now dancing"
 
 # instantiate the object
 blu = Parrot("Blue", 10)

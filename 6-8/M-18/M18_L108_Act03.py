@@ -9,7 +9,7 @@ size = 0
 
 while True:
     for i in range(4):
-        pen.forward(size + 1)
+        pen.backward(size + 1)
         pen.left(90)
         size = size - 5
     

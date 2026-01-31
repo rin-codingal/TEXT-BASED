@@ -1,9 +1,12 @@
 try:
   num1, num2 = eval(input("Enter two numbers separated by comma: "))
   result = num1/num2
+
+  code = "if True print('Yes')"
+  exec(code)
   
   print("Result is : ", result)
-  print("Result is : ", result2) # this is error
+  print("Result is : ", result2) # this is name error
 
 except ZeroDivisionError:
   print("Division by zero is not allowed")

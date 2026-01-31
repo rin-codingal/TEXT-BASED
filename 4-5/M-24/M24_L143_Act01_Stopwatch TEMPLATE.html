@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stopwatch</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Stopwatch</h1>
+            <p><span id="seconds">00</span>:<span id="milliseconds">00</span></p>
+            <button id="button-start">Start</button>
+            <button id="button-stop">Stop</button>
+            <button id="button-reset">Reset</button>
+        </div>
+
+        <script>
+            window.onload = function () {
+                var seconds = 0;
+                var milliseconds = 0;
+                var appendmilliseconds = 
+                var appendSeconds = 
+                var buttonStart = 
+                var buttonStop = 
+                var buttonReset = 
+                var Interval ;
+
+                buttonStart.onclick = function(){
+
+                    clearInterval(Interval);
+                    Interval = 
+                }
+
+                buttonStop.onclick = function(){
+                    
+                }
+
+                buttonReset.onclick = function(){
+                    
+                }
+
+                function startTimer(){
+                    milliseconds++;
+
+                    if(milliseconds <= 9){
+                        appendmilliseconds.innerHTML = 
+                    }
+                    
+                    if (milliseconds > 9){
+                        appendmilliseconds.innerHTML = 
+                    }
+
+                    if (milliseconds > 99) {
+                        seconds++;
+                        appendSeconds.innerHTML = 
+                        milliseconds = 0;
+                        appendmilliseconds.innerHTML = 
+                    }
+
+                    if (seconds > 9){
+                        appendSeconds.innerHTML = 
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

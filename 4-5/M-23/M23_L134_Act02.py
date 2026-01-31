@@ -18,4 +18,3 @@ print("Looping through the lines...")
 for line in file:
   print(line)
 file.close()
-

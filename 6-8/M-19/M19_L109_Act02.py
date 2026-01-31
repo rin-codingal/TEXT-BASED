@@ -3,6 +3,7 @@ def weather_condition(): #function declaration
     print("weather is same in",y)
 
 x="autumn"
-y="winter"
+
 
 weather_condition() #call the function
+y="winter"

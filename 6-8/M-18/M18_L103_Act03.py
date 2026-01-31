@@ -20,7 +20,7 @@ if choice == 1 : #condition 1 outer if statement
     else:
         print("you have selected BMX bike")
 
-elif choice == 1 : #outer elif statement
+elif choice == 2 : #outer elif statement
     print( "what type of car?" )
     print("1. Sedan")
     print("2. XUV")

@@ -6,7 +6,6 @@ result = map(lambda x, y: x + y, numbers1, numbers2)
 
 print("Addition of two lists")
 print(list(result))
-
 print()
 
 #using map

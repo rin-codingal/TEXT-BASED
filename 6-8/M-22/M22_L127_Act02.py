@@ -2,20 +2,24 @@ import pygame
 
 # Initialize required modules
 pygame.init()  
-white = (255, 255, 255)  
+white = (255, 255, 255)
+screen_width, screen_height = 500, 500
 
 # Clock
 clock = pygame.time.Clock()
   
-# creating the display surface object   
-# of specific dimension..e(X, Y).   
-display_surface = pygame.display.set_mode((500, 500))  
+# creating the display surface object of specific dimension..e(X, Y).   
+display_surface = pygame.display.set_mode((screen_width, screen_height))  
   
 # set the pygame window name   
-pygame.display.set_caption('Image')  
+pygame.display.set_caption('Add Image to The Window')  
   
-# creating a surface object, image is drawn on it.   
-image = pygame.image.load('6-8/M-22/turtle.jpeg')  
+# load and scale image
+bg_image = pygame.transform.scale(pygame.image.load('L33/bg-cartoon.jpg').convert(), (screen_width, screen_height))   
+
+image = pygame.image.load('L33/turtle.jpeg')  
+
+text = pygame.font.Font(None, 36).render("Hello", True, pygame.Color('black'))
 
 # Set the size for the image
 DEFAULT_IMAGE_SIZE = (200, 200)
@@ -29,7 +33,9 @@ DEFAULT_IMAGE_POSITION = (150,150)
 # infinite loop   
 while True:  
 	display_surface.fill(white)  
+	display_surface.blit(bg_image, (0, 0))
 	display_surface.blit(image, DEFAULT_IMAGE_POSITION)  
+	display_surface.blit(text, DEFAULT_IMAGE_POSITION)
 
 	for event in pygame.event.get():  
 		if event.type == pygame.QUIT:  

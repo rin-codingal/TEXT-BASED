@@ -7,8 +7,8 @@ while not valid: #outer loop
     #enter a even number
     while n%2 == 0: #inner loop
       print("bye")
-      valid = True
-      break
+
+    valid = True      
 
   except ValueError:
     print("Invalid")

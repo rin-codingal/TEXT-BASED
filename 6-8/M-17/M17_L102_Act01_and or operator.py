@@ -1,6 +1,6 @@
 a = 10
 b = 12
-c = 0
+c = 6
   
 if a and b and c:
     print("All the numbers have boolean value as True")

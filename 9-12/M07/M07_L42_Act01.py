@@ -1,6 +1,6 @@
 import turtle
 
-# creating canvas
+# creating canvas/paper
 turtle.Screen().bgcolor("Orange")
 
 sc = turtle.Screen()
@@ -12,8 +12,10 @@ turtle.title("Welcome to Turtle Window")
 pen = turtle.Turtle()
 
 # creating a square
+angle = 360/4 #square has 4 sides, so divided by 4
+
 for i in range(4):
 	pen.forward(100)
-	pen.left(90)
+	pen.left(angle)
 
 turtle.done()

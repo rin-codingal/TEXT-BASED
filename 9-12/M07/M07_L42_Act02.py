@@ -10,7 +10,7 @@ for i in range(3):
     pen.forward(100) # draw base 
     pen.left(angle)
  
-pen.penup()
+#pen.penup()
 pen.right(30)
 pen.forward(50)
  

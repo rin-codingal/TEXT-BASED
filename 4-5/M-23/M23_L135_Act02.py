@@ -4,7 +4,9 @@ new_file.close()
 
 #check if a file exists 
 import os
+
 print("Checking if my_file exists or not....")
+
 if os.path.exists("4-5/M-23/sample.txt"):
   os.remove("4-5/M-23/sample.txt")
 else:
@@ -20,4 +22,3 @@ os.remove("4-5/M-23/sample.txt")
 
 #delete the folder
 os.rmdir('Folder')
-

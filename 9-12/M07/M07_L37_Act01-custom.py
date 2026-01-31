@@ -5,4 +5,4 @@ print("hello world")
 print("Hello my name is Nurinn")
 
 # display calculation result
-print("3 + 5 =", 3+5)
+print("The result of 3 + 5 =", 3+5)

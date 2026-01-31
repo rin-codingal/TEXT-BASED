@@ -4,6 +4,7 @@ upper = int(input("Enter a upper range: "))
 
 print()
 print("Prime numbers between", lower, "and", upper, "are:")
+#temp = 0
 
 #display the result
 for num in range(lower, upper + 1):   
@@ -13,3 +14,9 @@ for num in range(lower, upper + 1):
                break
        else:
            print(num)
+           """if temp == 0:
+               print(num, end="")
+           else:
+               print(f", {num}", end="")
+
+           temp += 1"""

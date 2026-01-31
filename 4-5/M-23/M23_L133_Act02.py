@@ -19,4 +19,3 @@ file_append = open("4-5/M-23/hello.txt", 'a')
 file_append.write("\n File in append mode ....")
 file_append.write("\nHello tralala")
 file_append.close()
-

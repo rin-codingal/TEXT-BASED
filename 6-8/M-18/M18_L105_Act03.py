@@ -4,12 +4,15 @@ num = int(input("Enter a number: "))
 # initialize sum
 sum = 0
 
+#total digit
+pow = len(str(num))
+
 # find the sum of the cube of each digit
 temp = num
 
 while temp > 0:
    digit = temp % 10 # getting the remainder of the division
-   sum = sum + digit ** 3 #calculate each digit to the power of 3 and then add it to the sum
+   sum = sum + digit ** pow #calculate each digit to the power of total digit and then add it to the sum
    temp = temp // 10 # floor division (the result is rounded down without decimal value)
 
 # display the result

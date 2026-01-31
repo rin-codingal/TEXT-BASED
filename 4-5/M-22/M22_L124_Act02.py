@@ -4,7 +4,7 @@ def no_notes(a):
 
 	for i in range(7):
 		q = Q[i]
-		x = a//q
+		x = a // q
 		print(f"Notes of {q} = {x}")
 		a = a % q
 
