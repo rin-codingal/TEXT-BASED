@@ -3,7 +3,7 @@
 import os, io, time, random, requests, mimetypes
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
-from config import HF_API_KEY
+#from config import HF_API_KEY
 
 MODEL = "facebook/detr-resnet-101"
 API = f"https://router.huggingface.co/hf-inference/models/{MODEL}"
