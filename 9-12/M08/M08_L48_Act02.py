@@ -1,5 +1,4 @@
 class Computer:
-
     def __init__(self): #constructor
         self.__maxprice = 900 #__ means private variable
 

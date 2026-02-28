@@ -14,17 +14,6 @@ file.close()
 
 print()
 
-
-
-
-
-
-
-
-
-
-
-
 #append your name and age in the file
 file = open("test2.txt","a")
 file.write(" \nHi! I am Nurinn and I am from Indonesia.")

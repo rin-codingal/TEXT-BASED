@@ -14,78 +14,78 @@ class Sprite(pygame.sprite.Sprite):
 	def __init__(self, color, height, width):
 		super().__init__()
 
-		self.image = pygame.Surface([width, height])
+		self.image = pygame.Surface([])
 		self.image.fill(surf_color)
-		pygame.draw.rect(self.image,color,pygame.Rect(0, 0, width, height))
+		pygame.draw.rect(self.image,color,pygame.)
 		self.rect = self.image.get_rect()
 
-	def moveRight(self, pixels):
-		self.rect.x += pixels
+	def moveRight(self, ):
+		self.rect.x += 
 
-	def moveLeft(self, pixels):
-		self.rect.x -= pixels
+	def moveLeft(self, ):
+		self.rect.x -= 
 
-	def moveForward(self, speed):
-		self.rect.y += speed * speed/10
+	def moveForward():
+		self.rect.y += 
 
-	def moveBack(self, speed):
-		self.rect.y -= speed * speed/10
+	def moveBack():
+		self.rect.y -= 
 
-bg = pygame.image.load("L36/bg.jpeg")
-bg = pygame.transform.scale(bg, ())
+bg = pygame.image.load("")
+bg = pygame.transform.
 
 pygame.init()
 
-screen = pygame.display.set_mode((500, 400))
+screen = pygame.display.set_mode((, ))
 pygame.display.set_caption("")
 
-all_sprites_list = pygame.sprite.Group()
+all_sprites_list = pygame.sprite.
 
 # Add a sprite
-sp1 = Sprite(color, 20, 30)
-sp1.rect.x = random.randint()
-sp1.rect.y = random.randint()
-all_sprites_list.add(sp1)
+sp1 = Sprite()
+sp1.rect.x = random.()
+sp1.rect.y = random.()
+all_sprites_list.add()
 
 # Add one enemy 
 # set the random position
 rad = 20
 cxp = random.randint()
 cyp = random.randint()
-sp2 = Sprite((255,0,0), 20, 30)
-sp2.rect.x = cxp
-sp2.rect.y = cyp
-all_sprites_list.add(sp2)
+sp2 = Sprite((255,0,0), , )
+sp2.rect.x = 
+sp2.rect.y = 
+all_sprites_list.add()
 
 exit = True
-clock = pygame.time.Clock()
+clock = pygame.time.()
   
 while exit:
-	for event in pygame.event.get():
-		if event.type == pygame.QUIT:
+	for event in pygame.event.():
+		if event.type == pygame.:
 			exit = False
-		elif event.type == pygame.KEYDOWN:
+		elif event.type == pygame.:
 			if event.key == pygame.K_x:
 				exit = False
 
 	keys = pygame.key.get_pressed()
-	if keys[pygame.K_LEFT]:
-		sp1.moveLeft()
-	if keys[pygame.K_RIGHT]:
-		sp1.moveRight()
-	if keys[pygame.K_DOWN]:
-		sp1.moveForward()
-	if keys[pygame.K_UP]:
-		sp1.moveBack()
+	if keys[pygame.]:
+		sp1.()
+	if keys[pygame.]:
+		sp1.()
+	if keys[pygame.]:
+		sp1.()
+	if keys[pygame.]:
+		sp1.()
 
 	all_sprites_list.update()
-	screen.fill(surf_color)
+	screen.fill()
 	screen.blit(bg,(0,0))
-	all_sprites_list.draw(screen)
+	all_sprites_list.
 	pygame.display.flip()
 
-	if sp1.rect.colliderect(sp2.rect):
-		all_sprites_list.remove(sp2)
+	if sp1.rect.colliderect(sp2.):
+		all_sprites_list.
 		text = "You win!"
 
 		#load the fonts  
@@ -93,13 +93,13 @@ while exit:
 		
 		# Render the text in new surface  
 		text = font.render(text, True, (158, 16, 16))
-		screen.blit(text,(200 - text.get_width() // 2, 140 - text.get_height() // 2))
+		screen.blit(text,(200 - text.() // 2, 140 - text.() // 2))
 		
 		# Loading the audio
-		mixer.music.load("L36/explosion.wav")
+		mixer.music.load("")
 		
 		# Setting the volume
-		mixer.music.set_volume(0.7)
+		mixer.music.set_volume()
 		
 		# Start playing the audio
 		mixer.music.play()

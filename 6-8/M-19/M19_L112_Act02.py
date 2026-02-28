@@ -2,8 +2,8 @@ try:
   num1, num2 = eval(input("Enter two numbers separated by comma: "))
   result = num1/num2
 
-  code = "if True print('Yes')"
-  exec(code)
+  #code = "if True print('Yes')"
+  #exec(code)
   
   print("Result is : ", result)
   print("Result is : ", result2) # this is name error
@@ -12,7 +12,7 @@ except ZeroDivisionError:
   print("Division by zero is not allowed")
 
 except SyntaxError:
-  print("comma is missing. Enter numbers with separated comma like this: 1, 2")
+  print("syntax error")
 
 except ValueError:
   print("Please enter numerical value")

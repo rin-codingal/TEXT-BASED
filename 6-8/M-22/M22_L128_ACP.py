@@ -1,16 +1,15 @@
 import pygame  
 
 pygame.init()  
-screen = pygame.display.set_mode((640, 480))  
-done = False  
+screen = pygame.display.set_mode((640, 480)) 
   
 #load the fonts  
 font = pygame.font.SysFont("Courier", 36)  
+
 # Render the text in new surface  
 text = font.render("My first Game Screen", True, (255, 16, 100))  
 
-while not done:  
-
+while True:  
 	for event in pygame.event.get():  
 		if event.type == pygame.QUIT:  
 			done = True  

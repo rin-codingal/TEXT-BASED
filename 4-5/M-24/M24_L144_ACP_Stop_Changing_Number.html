@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stop Changing Number</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="number-display">0</h1>
+            <button id="toggle-btn">Stop / Start</button>
+            <p>Click count: <span id="count-display">0</span></p>
+        </div>
+
+        <script>
+            let intervalId = null;
+            let clickCount = 0;
+            const display = document.getElementById('number-display');
+            const btn = document.getElementById('toggle-btn');
+            const countDisplay = document.getElementById('count-display');
+
+            // Function to start the randomizer
+            function startRandomizer() {
+                if (!intervalId) {
+                    intervalId = setInterval(() => {
+                        display.textContent = Math.floor(Math.random() * 100);
+                    }, 100);
+                }
+            }
+
+            // Initial start
+            startRandomizer();
+
+            btn.addEventListener('click', () => {
+                clickCount++;
+                countDisplay.textContent = clickCount;
+
+                if (clickCount % 2 !== 0) {
+                    // ODD CLICK: Stop the app
+                    clearInterval(intervalId);
+                    intervalId = null;
+                    btn.textContent = "Start (Even Click)";
+                } else {
+                    // EVEN CLICK: Start the app
+                    startRandomizer();
+                    btn.textContent = "Stop (Odd Click)";
+                }
+            });
+        </script>
+    </body>
+</html>

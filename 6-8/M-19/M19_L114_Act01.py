@@ -10,5 +10,5 @@ print("Current Date and time is ", now)
 print()
   
 # Printing date's components
-print("Date components", today.year, today.month, today.day)
+print("Date components", today.year)
 print()

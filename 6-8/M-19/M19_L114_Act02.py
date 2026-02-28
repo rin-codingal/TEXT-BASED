@@ -6,9 +6,13 @@ def getRandomDate(startDate, endDate):
     randomGenerator = random.random()
 
     dateFormat = "%m/%d/%Y"
+    # strptime = parsing or rearranging date format from yyyy-mm-dd to m/d/yyy 
+    # and then mktime = reformatting into package with 9 elements
     starttime = time.mktime(time.strptime(startDate, dateFormat))
     endtime = time.mktime(time.strptime(endDate, dateFormat))
 
+    # localtime is reformatting from float number into package with 9 elements,
+    # strftime reformatting from package into dateformat
     randomTime = starttime + randomGenerator * (endtime - starttime)
     randomDate = time.strftime(dateFormat, time.localtime(randomTime))
     
