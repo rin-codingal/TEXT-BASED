@@ -8,7 +8,7 @@ def binaryToDecimal(binary):
         decimal = decimal + dec * pow(2, i)
         binary = binary//10
         
-        i += 1
+        i = i + 1
 
     print("Decimal number of",binary,":",decimal)   
      

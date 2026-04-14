@@ -11,5 +11,6 @@ def FirstSetBit(number): # function to find the rightmost set bit
     return position
  
 number = int(input("Enter a number : "))
+result = FirstSetBit(number)
 
-print(f"Position of the first set bit : {FirstSetBit(number)}")
+print(f"Position of the first set bit : {result}")

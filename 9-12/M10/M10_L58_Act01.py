@@ -1,12 +1,15 @@
 #armstrong number
-number = int(input("Enter a number: "))
+x = input("Enter a number: ")
+number_of_digit = len(x)
+
+number = int(x)
 
 result = 0
 temp = number
 
 while temp > 0:
     digit = temp % 10 
-    result = result + digit ** 3 #exponentiation
+    result = result + digit ** number_of_digit #exponentiation
     temp = temp//10
 
 print("result = ",result)

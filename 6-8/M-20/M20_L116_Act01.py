@@ -6,6 +6,7 @@ print()
 #create a numeric tuple
 tuplex = (4, 6, 2, 8, 3, 1) 
 print(tuplex)
+
 #tuples are immutable, so you can not add new elements
 print()
 

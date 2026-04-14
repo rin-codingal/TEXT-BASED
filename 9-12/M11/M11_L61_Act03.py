@@ -4,6 +4,7 @@ def numberOfBits(n):
     while (n):
         count += 1
         n >>= 1
+        
     return count
 
 n = int(input("Enter a number: "))

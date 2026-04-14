@@ -9,7 +9,6 @@ window.config(bg="lightblue")
 
 # Set title
 window.title("Rock Paper Scissor Game")
-#window.attributes('-fullscreen', True)
 
 # Computer Value
 computer_value = {

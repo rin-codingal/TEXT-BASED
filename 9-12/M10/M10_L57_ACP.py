@@ -1,10 +1,10 @@
 # Program to print he Recurrence relation of the below 2 recursive functions 
 def func1(n):
   if n > 0 :
-      return
+    return
   
   for i in range (0,n+1):
-      print("tes1")
+    print("tes1")
 
   func1(n/2)
   func1(n/3)
@@ -12,7 +12,7 @@ def func1(n):
 
 def func2(n):
   if n <= 1 :
-      return
+    return
   
   print("test2")
 

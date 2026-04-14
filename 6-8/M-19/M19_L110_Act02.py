@@ -4,7 +4,7 @@ def cube(number):
   
 #define a function which will execute cube function if the user entered number is divisible by 3
 def by_three(num):
-	if num % 3 ==0:
+	if num % 3 == 0:
 		return cube(num) #calling function cube()
 	else:
 		return False

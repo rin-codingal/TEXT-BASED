@@ -1,6 +1,6 @@
 def numberOfBits(n):
     ones = 0
-    zeroes= 0
+    zeroes = 0
     
     while (n):
         if (n & 1 == 1):

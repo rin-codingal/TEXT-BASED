@@ -4,7 +4,7 @@ print("2. Car")
 
 print()
 
-choice = int( input("Enter your choice (1 or 2): ") )
+choice = int(input("Enter your choice (1 or 2): ") )
 
 if choice == 1 : #condition 1 outer if statement
     print("what type of bike? ")
@@ -13,7 +13,7 @@ if choice == 1 : #condition 1 outer if statement
     print()
 
     #Condition for selecting the type of bike
-    choice2=int(input("Enter you choice2 (1 or 2): "))
+    choice2 = int(input("Enter you choice2 (1 or 2): "))
 
     if choice2 == 1: #inner if statement
         print("you have selected Mountain Bike")
@@ -26,9 +26,9 @@ elif choice == 2 : #outer elif statement
     print("2. XUV")
     print()
 
-    choice3=int(input("enter your choice3 (1 or 2): "))
+    choice3 = int(input("enter your choice3 (1 or 2): "))
 
-    if choice3==1: #inner if statement
+    if choice3 == 1: #inner if statement
         print("you have selected Sedan")
     else:
         print("you have selected XUV")

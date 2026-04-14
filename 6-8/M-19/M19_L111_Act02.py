@@ -13,6 +13,3 @@ for x in range(17):
 
    else: 
       print(x)
-   
-   print(f"test {x}") #still executed even though there's pass on x = 15
-   print()
