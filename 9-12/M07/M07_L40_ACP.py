@@ -1,5 +1,8 @@
 # take input from the user
-num = int(input("Enter a number: "))
+x = input("Enter a number: ")
+total_digit = len(x) # total digit of the number
+
+num = int(x)
 
 # initialize sum
 sum = 0
@@ -8,7 +11,7 @@ sum = 0
 temp = num
 while temp > 0:
    digit = temp % 10
-   sum = sum + digit ** 3
+   sum = sum + digit ** total_digit
    temp = temp // 10 # floor division to get the quotient
 
 # display the result
