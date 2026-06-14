@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Hobby</title>
+
+        <style>
+            body.dark {
+                color: purple;
+                background: pink;
+                }
+            button {  
+                display: block;
+                margin: 5px;
+            }
+            .textEntry {
+                margin-top: 12px;
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Hobby</h1>
+        <p id="story">I will tell you my hobby</p>
+
+        <button onclick="goDark()">Get In The Mood</button>
+        
+        
+        <button onclick="finishTheStory()">Tell Me your hobby</button>
+    
+        
+        <script>
+            
+            function goDark() {
+                document.body.className = "dark";
+            }
+            function finishTheStory() {
+                document.getElementById("story").innerHTML = "I like gardening. What about you?";
+            }
+        </script>
+    </body>
+</html>

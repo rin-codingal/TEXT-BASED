@@ -1,0 +1,13 @@
+def is_power_of_8(number):
+    while number > 1:
+        if number % 8 != 0:
+            return False
+        number //= 8
+    return number == 1
+
+num = int(input("Enter your number: "))
+
+if is_power_of_8(num):
+    print(f"Yes, {num} is the power of 8")
+else:
+    print(f"No, {num} is not the power of 8")

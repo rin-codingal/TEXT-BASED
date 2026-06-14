@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Today Calendar</title>
+    </head>
+    <body>
+        <h1>Today's Date</h1>
+        <p id="todayDate"></p>
+
+        <script>
+            const today = new Date();
+
+            const year = today.getFullYear();
+            const monthIndex = today.getMonth(); // 0 is January, 1 is February, etc
+            
+            month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+            const date = today.getDate();
+            const dayOfWeekIndex = today.getDay(); // 0 is Sunday, 1 is Monday, etc.
+
+            // Get the day of the week name using an array
+            const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+            const dayName = days[dayOfWeekIndex];
+
+            document.getElementById("todayDate").innerHTML = dayName + ", " + date + " " + month[monthIndex] + " " + year;
+        </script>
+    </body>
+</html>

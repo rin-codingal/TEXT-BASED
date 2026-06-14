@@ -1,0 +1,51 @@
+<!DOCTYPE >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Box Model Properties</title>
+
+        <style type="text/css">
+            h1 {
+                color: blue;
+            }
+
+            .box1 {
+                width:350px;
+                /*height: 150px;*/
+                background-color: aqua;
+
+                /*   top right bottom left */
+                padding:10px 10px 20px 20px;
+                border:0px;
+                margin:0px;                        
+                float:left;
+            }
+
+            .box2 {
+                width:350px;
+                background-color: lime;
+                padding:20px;
+                border:5px dotted red;
+
+                /*   top right bottom left */
+                margin:250px 60px 60px 60px; 
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Box Model</h1>
+        <hr>
+        <p class="box1">
+            <img src="pizza.jpg" style="height: 50px; float: right; margin-left: 10px;">
+            Pizza is an Italian dish typically consisting of a flat base of leavened wheat-based dough topped with tomato, 
+            cheese, and other ingredients, baked at a high temperature, traditionally in a wood-fired oven.
+        </p>
+
+        <p class="box2">
+            <img src="pizza-2.jpg" style="height: 150px; float: left; margin-right: 10px;">
+            Pizza is an Italian dish typically consisting of a flat base of leavened wheat-based dough topped with tomato, 
+            cheese, and other ingredients, baked at a high temperature, traditionally in a wood-fired oven.
+        </p>
+    </body>
+</html>

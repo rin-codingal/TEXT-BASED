@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solar system</title>
+
+        <style>
+            .alert{
+                color: aqua;
+                background: green;
+                padding : 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id = "heading">Solar System</h1>
+            <p>Hello</p>
+        </header>
+
+        <p>What is Solar System</p>
+
+        <script>
+            /* Step One:- Creating a div and adding it to the document*/
+            let div = document.createElement('div');
+            div.id = "paragraph"
+            div.className = "alert";
+            div.innerHTML = "<p>The Solar System is a star system consisting of the Sun and the celestial objects gravitationally bound to it, including eight planets, dwarf planets, moons, asteroids, comets, and other space debris. It formed about 4.6 billion years ago from a giant, rotating cloud of gas and dust called the solar nebula.  </p>";
+            document.body.append(div);
+            
+            /* Step two:- modifiying an HTML element*/
+            let heading = document.getElementById("heading");
+            heading.innerHTML = '&#9728;';
+            
+            /*Step three:- modfifying another HTML element*/
+            document.querySelector('header p').innerHTML = "<strong>Solar System</strong>";
+        </script>
+    </body>
+</html>

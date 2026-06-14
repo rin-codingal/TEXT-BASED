@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scrollspy</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <style>
+            body {
+                position: relative;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            #section1 {
+                padding-top: 50px;
+                height: 500px;
+                color: #fff;
+                background-color: #1E88E5;
+            }
+
+            #section2 {
+                padding-top: 50px;
+                height: 500px;
+                color: #da0a0a;
+                background-color: #fff;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navber-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Codingal</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#section1">Section 1</a></li>
+                    <li><a href="#section2">Section 2</a></li>
+                </ul>
+
+                <a class="navbar-brand" href="#">Codingal</a>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="Section1"></span> Section1</a></li>
+                    <li><a href="#"><span class="Section2"></span> Section2</a></li>
+                    
+            </div>
+        </nav>
+            <div id="Section1" class="container-fluid">
+                <h1>Section 1</h1>
+                <h3>Codingal</h3>
+                <h5>
+                    Codingal is on a mission to inspire school kids to fall in love with coding.
+                    Coding is proven to develop creativity, logical thinking and problem solving    
+                    skills in kids. Coding is an essential skill of the future and more than 60% of
+                    all jobs in STEM-related fields require knowledge of code. Kids who start
+                    learning to code at a young age are guaranteed to become leaders, creators
+                    andentrepreneurs of the future.
+                </h5>
+
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <p>scroll this section</p>
+            </div>
+        
+            <div id="Section2" class="container-fluid">
+                <h1>Section 2</h1>
+                <h3>Codingal</h3>
+                <h5>Vivek Prakash and Satyam Baranwal are the founders</h5>
+                <p>scroll this section</p>
+            </div>
+            <br><br><br><br>
+    </body>
+</html>

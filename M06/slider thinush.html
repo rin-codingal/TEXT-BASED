@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <section>
+            <img class="mySlides" src="garden-1.jpg" style="height: 500px;">
+            <img class="mySlides" src="garden-2.jpg" style="height: 500px;">
+            <img class="mySlides" src="garden-3.jpg" style="height: 500px;">
+        </section>
+        
+        <script>
+            var my_index = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+
+                for (i=0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+
+                my_index++;
+
+                if (my_index > x.length) {
+                    my_index = 1;
+                }
+
+                x[my_index-1].style.display = "block";
+                setTimeout(carousel,2000);
+            }
+        </script>
+    </body>
+</html>

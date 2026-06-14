@@ -1,0 +1,54 @@
+body {
+        position: relative;
+    }
+
+p {
+    font-size: 18px;
+}
+
+#section1 {
+    padding-top:50px; 
+    height:500px; 
+    color: white; 
+    background-color: orange;
+}
+
+#section2 {
+    padding-top:50px; 
+    height:500px; 
+    color: green; 
+    background-color: white;
+}
+
+/* The container you are "spying" on */
+#content-container {
+    /* Required for scrollspy to work */
+    position: relative; 
+
+    /* Enable horizontal scrolling */
+    overflow-x: auto; 
+
+    /* Disable vertical scrolling (or keep it if needed) */
+    overflow-y: hidden;
+
+    /* Give it a fixed height to constrain the scrollable area */
+    height: 300px;
+
+    /* Ensure all content sections line up horizontally */
+    white-space: nowrap; 
+}
+
+/* The content sections inside the container */
+.scroll-section {
+    /* Display the sections in a single line */
+    display: inline-block;
+
+    /* Prevent text wrapping */
+    white-space: normal;
+
+    /* Set a width for each section (e.g., 100% of the container) */
+    width: 100%; 
+
+    /* Add padding/margin as needed */
+    padding: 20px;
+}

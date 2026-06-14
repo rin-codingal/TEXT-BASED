@@ -1,0 +1,1072 @@
+{
+	"info": {
+		"width": 800,
+		"height": 600,
+		"about": "Image data with multi-layers. Can be opened using miniPaint - https://github.com/viliusle/miniPaint",
+		"date": "2025-06-28",
+		"version": "4.14.2",
+		"layer_active": 28,
+		"guides": []
+	},
+	"user_fonts": {},
+	"layers": [
+		{
+			"id": 3,
+			"parent_id": 0,
+			"name": "Rectangle #4",
+			"type": "rectangle",
+			"link": null,
+			"x": 41,
+			"y": 23,
+			"width": 719,
+			"width_original": null,
+			"height": 555,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 3,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": null,
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#555555",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 6,
+			"parent_id": 0,
+			"name": "Rectangle #6",
+			"type": "rectangle",
+			"link": null,
+			"x": 55,
+			"y": 500,
+			"width": 691,
+			"width_original": null,
+			"height": 67,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 6,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": null,
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#008000",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 7,
+			"parent_id": 0,
+			"name": "Rectangle #7",
+			"type": "rectangle",
+			"link": null,
+			"x": 629,
+			"y": 37,
+			"width": 117,
+			"width_original": null,
+			"height": 446,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 7,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": null,
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#16d7e5",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 8,
+			"parent_id": 0,
+			"name": "Rectangle #8",
+			"type": "rectangle",
+			"link": null,
+			"x": 55,
+			"y": 37,
+			"width": 558,
+			"width_original": null,
+			"height": 448,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 8,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": null,
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#38eaa3",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 9,
+			"parent_id": 0,
+			"name": "Line #9",
+			"type": "line",
+			"link": null,
+			"x": 55,
+			"y": 168,
+			"width": 558,
+			"width_original": null,
+			"height": -1.4000015258789062,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 9,
+			"composition": "source-over",
+			"rotate": null,
+			"data": null,
+			"params": {
+				"size": 4
+			},
+			"status": null,
+			"color": "#38eaa3",
+			"filters": [],
+			"render_function": [
+				"line",
+				"render"
+			]
+		},
+		{
+			"id": 10,
+			"parent_id": 0,
+			"name": "Line #10",
+			"type": "line",
+			"link": null,
+			"x": 629,
+			"y": 168,
+			"width": 117,
+			"width_original": null,
+			"height": 0,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 10,
+			"composition": "source-over",
+			"rotate": null,
+			"data": [
+				[
+					{
+						"text": "",
+						"meta": {
+							"fill_color": "#38eaa3"
+						}
+					}
+				]
+			],
+			"params": {
+				"size": 4
+			},
+			"status": null,
+			"color": "#38eaa3",
+			"filters": [],
+			"render_function": [
+				"line",
+				"render"
+			]
+		},
+		{
+			"id": 11,
+			"parent_id": 0,
+			"name": "Text #11",
+			"type": "text",
+			"link": null,
+			"x": 276,
+			"y": 133,
+			"width": 67,
+			"width_original": null,
+			"height": 24,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 11,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "Header",
+						"meta": {
+							"fill_color": "#38eaa3",
+							"size": 20
+						}
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#38eaa3",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 12,
+			"parent_id": 0,
+			"name": "Text #12",
+			"type": "text",
+			"link": null,
+			"x": 636,
+			"y": 74,
+			"width": 104,
+			"width_original": null,
+			"height": 19,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 12,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "Intro about club",
+						"meta": {
+							"size": 15,
+							"fill_color": "#11d1db"
+						}
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#38eaa3",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 13,
+			"parent_id": 0,
+			"name": "Text #13",
+			"type": "text",
+			"link": null,
+			"x": 652,
+			"y": 223,
+			"width": 71,
+			"width_original": null,
+			"height": 37,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 13,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"meta": {
+							"size": 15,
+							"fill_color": "#11d1db"
+						},
+						"text": "Best seller"
+					}
+				],
+				[
+					{
+						"meta": {
+							"size": 15,
+							"fill_color": "#11d1db"
+						},
+						"text": "Books"
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#38eaa3",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 14,
+			"parent_id": 0,
+			"name": "Rectangle #14",
+			"type": "rectangle",
+			"link": null,
+			"x": 71,
+			"y": 56,
+			"width": 302,
+			"width_original": null,
+			"height": 60,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 14,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": null,
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#17ef1f",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 15,
+			"parent_id": 0,
+			"name": "Rectangle #15",
+			"type": "rectangle",
+			"link": null,
+			"x": 413,
+			"y": 56,
+			"width": 187,
+			"width_original": null,
+			"height": 60,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 15,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": null,
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#17ef1f",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 16,
+			"parent_id": 0,
+			"name": "Text #16",
+			"type": "text",
+			"link": null,
+			"x": 121,
+			"y": 76.9000015258789,
+			"width": 57,
+			"width_original": null,
+			"height": 19,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 16,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"meta": {
+							"size": 15,
+							"fill_color": "#17ef1f"
+						},
+						"text": "Heading"
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#17ef1f",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 17,
+			"parent_id": 0,
+			"name": "Text #17",
+			"type": "text",
+			"link": null,
+			"x": 460,
+			"y": 73,
+			"width": 94,
+			"width_original": null,
+			"height": 20,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 17,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "Image",
+						"meta": {
+							"size": 15,
+							"fill_color": "#17ef1f"
+						}
+					}
+				]
+			],
+			"params": {
+				"boundary": "box",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#17ef1f",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 18,
+			"parent_id": 0,
+			"name": "Text #18",
+			"type": "text",
+			"link": null,
+			"x": 249,
+			"y": 515,
+			"width": 189,
+			"width_original": null,
+			"height": 37,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 18,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"meta": {
+							"size": 15,
+							"fill_color": "#056608"
+						},
+						"text": "Footer"
+					}
+				],
+				[
+					{
+						"meta": {
+							"size": 15,
+							"fill_color": "#056608"
+						},
+						"text": "contact information, address"
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#17ef1f",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 19,
+			"parent_id": 0,
+			"name": "Line #19",
+			"type": "line",
+			"link": null,
+			"x": 64,
+			"y": 207,
+			"width": 542,
+			"width_original": null,
+			"height": -2,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 19,
+			"composition": "source-over",
+			"rotate": null,
+			"data": [
+				[
+					{
+						"text": "",
+						"meta": {
+							"size": 15,
+							"fill_color": "#e617ed"
+						}
+					}
+				]
+			],
+			"params": {
+				"size": 4
+			},
+			"status": null,
+			"color": "#e617ed",
+			"filters": [],
+			"render_function": [
+				"line",
+				"render"
+			]
+		},
+		{
+			"id": 20,
+			"parent_id": 0,
+			"name": "Text #20",
+			"type": "text",
+			"link": null,
+			"x": 236,
+			"y": 177,
+			"width": 99,
+			"width_original": null,
+			"height": 19,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 20,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "Navigation Bar",
+						"meta": {
+							"size": 15,
+							"fill_color": "#e617ed"
+						}
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#e617ed",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 21,
+			"parent_id": 0,
+			"name": "Text #21",
+			"type": "text",
+			"link": null,
+			"x": 194,
+			"y": 214,
+			"width": 85,
+			"width_original": null,
+			"height": 19,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 21,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"meta": {
+							"size": 15,
+							"fill_color": "#17eac3"
+						},
+						"text": "Main section"
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#e617ed",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 22,
+			"parent_id": 0,
+			"name": "Rectangle #22",
+			"type": "rectangle",
+			"link": null,
+			"x": 71,
+			"y": 242,
+			"width": 527,
+			"width_original": null,
+			"height": 58,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 22,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "",
+						"meta": {
+							"size": 15,
+							"fill_color": "#1757ed"
+						}
+					}
+				]
+			],
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#1757ed",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 23,
+			"parent_id": 0,
+			"name": "Text #23",
+			"type": "text",
+			"link": null,
+			"x": 213,
+			"y": 262,
+			"width": 105,
+			"width_original": null,
+			"height": 19,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 23,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "About Teachers",
+						"meta": {
+							"size": 15,
+							"fill_color": "#1757ed"
+						}
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#e617ed",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 24,
+			"parent_id": 0,
+			"name": "Rectangle #24",
+			"type": "rectangle",
+			"link": null,
+			"x": 71,
+			"y": 325,
+			"width": 527,
+			"width_original": null,
+			"height": 57,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 24,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "",
+						"meta": {
+							"size": 15,
+							"fill_color": "#ea7d17"
+						}
+					}
+				]
+			],
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#ea7d17",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 25,
+			"parent_id": 0,
+			"name": "Text #25",
+			"type": "text",
+			"link": null,
+			"x": 175,
+			"y": 341.9000015258789,
+			"width": 90,
+			"width_original": null,
+			"height": 19,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 25,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "Book reviews",
+						"meta": {
+							"size": 15,
+							"fill_color": "#ea7d17"
+						}
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#e617ed",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 26,
+			"parent_id": 0,
+			"name": "Text #26",
+			"type": "text",
+			"link": null,
+			"x": 230,
+			"y": 430.9000015258789,
+			"width": 9,
+			"width_original": null,
+			"height": 19,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 26,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "",
+						"meta": {
+							"size": 15,
+							"fill_color": "#ea7d17"
+						}
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#e617ed",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		},
+		{
+			"id": 27,
+			"parent_id": 0,
+			"name": "Rectangle #27",
+			"type": "rectangle",
+			"link": null,
+			"x": 71,
+			"y": 403,
+			"width": 527,
+			"width_original": null,
+			"height": 57,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 27,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "",
+						"meta": {
+							"size": 15,
+							"fill_color": "#e83a17"
+						}
+					}
+				]
+			],
+			"params": {
+				"border_size": 4,
+				"border": true,
+				"fill": false,
+				"border_color": "#e83a17",
+				"fill_color": "#aaaaaa00",
+				"radius": 0,
+				"square": false
+			},
+			"status": null,
+			"color": null,
+			"filters": [],
+			"render_function": [
+				"rectangle",
+				"render"
+			]
+		},
+		{
+			"id": 28,
+			"parent_id": 0,
+			"name": "Text #28",
+			"type": "text",
+			"link": null,
+			"x": 199,
+			"y": 419,
+			"width": 99,
+			"width_original": null,
+			"height": 19,
+			"height_original": null,
+			"visible": true,
+			"is_vector": true,
+			"hide_selection_if_active": false,
+			"opacity": 100,
+			"order": 28,
+			"composition": "source-over",
+			"rotate": 0,
+			"data": [
+				[
+					{
+						"text": "opening timing",
+						"meta": {
+							"size": 15,
+							"fill_color": "#e83a17"
+						}
+					}
+				]
+			],
+			"params": {
+				"boundary": "dynamic",
+				"kerning": "metrics",
+				"text_direction": "ltr",
+				"wrap_direction": "ttb",
+				"halign": "left",
+				"valign": "top",
+				"wrap": "letter"
+			},
+			"status": null,
+			"color": "#e617ed",
+			"filters": [],
+			"render_function": [
+				"text",
+				"render"
+			]
+		}
+	],
+	"data": []
+}

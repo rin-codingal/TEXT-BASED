@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Animation</title>
+
+        <style> 
+            /* The animation code */
+            @keyframes sample1 {
+                0%   {background-color: red;}
+                25%  {background-color: yellow;}
+                50%  {background-color: blue;}
+                75%  {background-color: violet;}
+                100% {background-color: green;}
+            }
+
+            /* The element to apply the animation to */
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: sample1;
+                animation-duration: 8s;
+            }
+        </style>
+    </head>
+
+    <body>
+        ​<div></div>
+    </body>
+</html>

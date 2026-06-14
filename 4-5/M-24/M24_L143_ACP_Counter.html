@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counter</title>
+    </head>
+    <body>
+        <h2>Click Counter</h2>
+        <p id="count" style="font-size:40px;">0</p>
+        <button onclick="increaseCount()">Click to Increase</button>
+        <button onclick="decreaseCount()">Click to Decrease</button>
+
+        <script>
+            // Declare the counter variable
+            let count = 0;
+
+            // Function to increase the counter and update the display
+            function increaseCount() {
+                count++; // Increment the count variable
+                // Update the innerHTML of the 'p' element with the ID 'count'
+                document.getElementById("count").innerHTML = count;
+            }
+
+            function decreaseCount() {
+                count--; // Increment the count variable
+                // Update the innerHTML of the 'p' element with the ID 'count'
+                document.getElementById("count").innerHTML = count;
+            }
+        </script>
+    </body>
+</html>

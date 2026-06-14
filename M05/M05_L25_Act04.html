@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random number while loops</title>
+    </head>
+    <body>
+        <h2>JavaScript While Loop</h2>
+        
+        <p id="number"></p>
+        
+        <script>
+            var text = "";
+            var i = 0;
+            
+            while (i < 10) {
+                text += "<br>The number is " + i;
+                i++; //increase i value by 1
+            }
+            
+            document.getElementById("number").innerHTML = text;
+        </script>
+    </body>
+</html>

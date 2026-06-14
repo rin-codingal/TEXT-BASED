@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1eae4c03-d093-4536-9f7c-634c7d9cf555" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/!AI/L07/a1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/!AI/L09/Image_annotation-template.py" beforeDir="false" afterPath="$PROJECT_DIR$/!AI/L09/Image_annotation-template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/!AI/L09/Image_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/!AI/L09/Image_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L100_Act01.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L100_Act01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L100_Act02.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L100_Act02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L100_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L100_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L101_Act02.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L101_Act02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L101_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L101_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L101_Act04.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L101_Act04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L101_conditional_statements.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L101_conditional_statements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L102_Act01.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L102_Act01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-17/M17_L102_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-17/M17_L102_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/Identity Operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/Identity Operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L103_Act01.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L103_Act01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L103_Act02.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L103_Act02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L103_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L103_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L104_ACP.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L104_ACP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L104_Act01.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L104_Act01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L104_Act02.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L104_Act02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L104_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L104_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L106_Act01.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L106_Act01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/M18_L106_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/M18_L106_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/average speed.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/average speed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/divisible number.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/divisible number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/grading system.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/grading system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/mean value.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/mean value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-18/operator precedence.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-18/operator precedence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-22/M22_L127_Act01.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-22/M22_L127_Act01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-22/M22_L128_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-22/M22_L128_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-8/M-22/M22_L130_Act02.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-8/M-22/M22_L130_Act02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-12/M07/M07_L39_ACP.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-12/M07/M07_L39_ACP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-12/M07/M07_L39_Act01.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-12/M07/M07_L39_Act01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-12/M07/M07_L39_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-12/M07/M07_L39_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-12/M07/M07_L39_Act04.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-12/M07/M07_L39_Act04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-12/M07/M07_L40_Act01.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-12/M07/M07_L40_Act01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-12/M07/M07_L40_Act02.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-12/M07/M07_L40_Act02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-12/M07/M07_L40_Act03.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-12/M07/M07_L40_Act03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-12/M07/M07_L40_Act04.py" beforeDir="false" afterPath="$PROJECT_DIR$/9-12/M07/M07_L40_Act04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M01/M01_L03_Act01.html" beforeDir="false" afterPath="$PROJECT_DIR$/M01/M01_L03_Act01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M01/M01_L03_Act02.html" beforeDir="false" afterPath="$PROJECT_DIR$/M01/M01_L03_Act02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M01/M01_L03_Act03.html" beforeDir="false" afterPath="$PROJECT_DIR$/M01/M01_L03_Act03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03/M03_L13_Act01.html" beforeDir="false" afterPath="$PROJECT_DIR$/M03/M03_L13_Act01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03/M03_L13_Act02.html" beforeDir="false" afterPath="$PROJECT_DIR$/M03/M03_L13_Act02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03/M03_L14_Act01.html" beforeDir="false" afterPath="$PROJECT_DIR$/M03/M03_L14_Act01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03/M03_L14_Act02.html" beforeDir="false" afterPath="$PROJECT_DIR$/M03/M03_L14_Act02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03/M03_L15_Act02.html" beforeDir="false" afterPath="$PROJECT_DIR$/M03/M03_L15_Act02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03/M03_L16_ACP.html" beforeDir="false" afterPath="$PROJECT_DIR$/M03/M03_L16_ACP.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03/M03_L16_Act01.html" beforeDir="false" afterPath="$PROJECT_DIR$/M03/M03_L16_Act01.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2xjTtdISP8KtqkbhgjUdu98fsGK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/nurin/Documents/CODINGAL/CLASS/PAID/TEXT-BASED/!AI/L10"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nurin\Documents\CODINGAL\CLASS\PAID\TEXT-BASED\!AI\L10" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1eae4c03-d093-4536-9f7c-634c7d9cf555" name="Changes" comment="" />
+      <created>1748450699031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748450699031</updated>
+    </task>
+    <servers />
+  </component>
+</project>

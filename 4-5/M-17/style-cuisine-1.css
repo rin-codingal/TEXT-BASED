@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+#description {
+    background-color: aqua;
+}
+
+h2 {
+    background-color: cornsilk;
+}
+
+section div {
+    background-color: rgb(249, 211, 217);
+}
+
+footer {
+    background-color: black;
+}
+.footer {
+    background-color: black;
+    color: white;
+}

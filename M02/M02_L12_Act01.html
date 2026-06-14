@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Precise Positioning</title>
+
+        <!--internal CSS-->
+        <style>
+            div {
+                right: 30px;
+                border: 3px solid #73AD21;
+            }
+
+            div.relative {
+                position: relative;
+                left: 100px;
+                border: 3px solid #e9d116;
+            }
+
+            div.absolute {
+                position: absolute;
+                left: 50px;
+                border: 3px solid blue;
+            }
+
+            div.fixed {
+                position: fixed;
+                top: 0;
+                right: 20px;
+                width: 300px;
+                border: 3px solid #e13dbb;
+            }
+
+            div.sticky {
+                position: sticky;
+                top: 15px;
+                left: 20px;
+                width:100px;
+                border: 3px solid #f27077;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!-- change the position to show the diffference
+        static
+        relative
+        fixed
+        absolute
+        sticky-->
+        <h2>POSITIONING</h2>
+
+        <div>
+            Div with no position property
+        </div>
+
+        <div class="sticky">
+            Div with sticky position property
+        </div>
+
+        <div class="relative">
+            This div element has position: relative;
+
+            <div class="absolute">
+                Absolute class DIV
+            </div>
+        </div>
+        
+        <div class="fixed">
+            Div with fixed position property
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+    </body>
+</html>
+
