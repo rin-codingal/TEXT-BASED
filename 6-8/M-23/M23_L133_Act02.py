@@ -31,7 +31,6 @@ text_box = Text(height=3)
 
 btn = Button(text="Display message", command=display, height=1, bg="red", fg="white")
 
-
 # Attaching all the widgets in the window
 label.pack()
 name_label.pack()

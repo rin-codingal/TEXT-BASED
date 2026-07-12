@@ -23,7 +23,6 @@ name_entry = Entry(new_frame)
 email_entry = Entry(new_frame)
 pass_entry = Entry(new_frame, show="*")
 
-
 res = Text(bg="white", fg="black")
 
 btn = Button(text="Create Account", command=display, bg="red", fg="yellow")
@@ -32,7 +31,7 @@ btn = Button(text="Create Account", command=display, bg="red", fg="yellow")
 new_frame.place(x=20, y=0)
 
 LbL1.place(x=20, y=20)
-name_entry.place(x=150, y=20) # Aarushi until this line
+name_entry.place(x=150, y=20) 
 
 LbL2.place(x=20, y=80)
 email_entry.place(x=150, y=80)

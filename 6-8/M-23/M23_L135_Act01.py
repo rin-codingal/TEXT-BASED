@@ -17,10 +17,10 @@ def handle_click(event):
     print("The button was clicked!")
 
 #add widgets
-button = Button(text="Click me!")
-button.pack()
+btn = Button(text="Click me!")
+btn.pack()
 
 # Bind click event to handle_click()
-button.bind("<Button-1>", handle_click)
+btn.bind("<Button-1>", handle_click)
 
 window.mainloop()

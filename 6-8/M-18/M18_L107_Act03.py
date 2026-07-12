@@ -9,17 +9,17 @@ space = halfDiamRow-1
 
 #loop for upper part 
 for i in range(1, halfDiamRow+1): #loop for rows
-  for j in range(1, space+1): #loop for columns
-    print(end=" ")
+    for j in range(1, space+1): #loop for columns
+      print(end=" ")
 
-  space = space-1
-  num = 1
+    space = space-1
+    num = 1
 
-  for j in range(2*i-1):
-    print(end=str(num))  
-    num = num+1 #incerementing number at each column
+    for j in range(2*i-1):
+      print(end=str(num))  
+      num = num+1 #incerementing number at each column
 
-  print()
+    print()
 
 space = 1
 

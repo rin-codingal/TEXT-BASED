@@ -3,9 +3,9 @@ import math
 
 x = 0.5
 
-a = math.sin(x)
-b = math.cos(x)
-c = math.tan(x)
+a = math.sin(math.radians(x))
+b = math.cos(math.radians(x))
+c = math.tan(math.radians(x))
 
 print("value of sin(0.5)= ",a)
 print("value of cos(0.5)= ",b)

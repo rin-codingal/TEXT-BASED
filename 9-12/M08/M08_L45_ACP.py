@@ -1,6 +1,5 @@
 class Robot:
-
-    # class attribute
+    # class static attribute
     species = "robot"
 
     # instance attribute
