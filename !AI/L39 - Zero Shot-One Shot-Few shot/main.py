@@ -40,6 +40,11 @@ def run_activity():
                     Item: apple
                     Answer: Yes, apple is a fruit.
 
+                    Example 2:
+                    Category: vehicle
+                    Item: bike
+                    Answer: Yes, bike is a vehicle.
+
                     Now you try:
                     Category: {category}
                     Item: {item}

@@ -1,10 +1,9 @@
 import turtle
 
 # creating canvas/paper
-turtle.Screen().bgcolor("Orange")
-
-sc = turtle.Screen()
-sc.setup(400, 300)
+paper = turtle.Screen()
+paper.setup(400, 300)
+paper.bgcolor("Orange")
 
 turtle.title("Welcome to Turtle Window")
 
