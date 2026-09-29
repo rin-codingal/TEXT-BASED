@@ -7,14 +7,14 @@ body {
 }
 
 .page-header {
-    background-image: linear-gradient(to right, purple, coral);
+    background-image: linear-gradient(to right, purple, coral, white);
     border-radius: 16px;
     text-align: center;
     color: white;
 }
 
 .fact-card {
-    background-color: midnightblue;
+    background-color: teal;
     border-radius: 12px;
     color: white;
 }
@@ -23,17 +23,17 @@ body {
     color: coral;
 }
 
+@keyframes twinkle {
+    from { background-color: yellow; }
+    to   { background-color: white; }
+}
+
 .star {
     width: 60px;
     height: 60px;
     background-color: yellow;
     border-radius: 50%;
     animation: twinkle 2s infinite alternate;
-}
-
-@keyframes twinkle {
-    from { background-color: yellow; }
-    to   { background-color: white; }
 }
 
 .footer-text {

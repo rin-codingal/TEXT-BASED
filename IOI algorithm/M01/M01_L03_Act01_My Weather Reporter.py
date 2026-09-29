@@ -1,6 +1,5 @@
 # ================================
 #  MY WEATHER REPORTER
-#  File: my-weather-reporter.py
 # ================================
 
 

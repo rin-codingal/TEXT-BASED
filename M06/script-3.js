@@ -3,7 +3,7 @@ function getHistory(){
 }
 
 function printHistory(num){
-	document.getElementById("history-value").innerText=num;
+	document.getElementById("history-value").innerText = num;
 }
 
 function getOutput(){
@@ -12,10 +12,10 @@ function getOutput(){
 
 function printOutput(num){
 	if(num==""){
-		document.getElementById("output-value").innerText=num;
+		document.getElementById("output-value").innerText = num;
 	}
 	else{
-		document.getElementById("output-value").innerText=getFormattedNumber(num);
+		document.getElementById("output-value").innerText = getFormattedNumber(num);
 	}	
 }
 
@@ -23,6 +23,7 @@ function getFormattedNumber(num){
 	if(num=="-"){
 		return "";
 	}
+
 	var n = Number(num);
 	var value = n.toLocaleString("en");
 	return value;
@@ -42,26 +43,27 @@ for(var i=0;i<operator.length;i++){
 		}
 		
 		else if(this.id=="backspace"){
-			var output=reverseNumberFormat(getOutput()).toString();
+			var output = reverseNumberFormat(getOutput()).toString();
 			if(output){//if output has a value
-				output= output.substring(0,output.length-1);
+				output = output.substring(0,output.length-1);
 				printOutput(output);
 			}
 		}
 		else{
-			var output=getOutput();
-			var history=getHistory();
-			if(output==""&&history!=""){
+			var output = getOutput();
+			var history = getHistory();
+
+			if(output == "" && history != ""){
 				if(isNaN(history[history.length-1])){
-					history= history.substring(0,history.length-1);
+					history = history.substring(0,history.length-1);
 				}
 			} 
 			if(output!="" || history!=""){
 				output= output==""?output:reverseNumberFormat(output);
 
 				history = history + output;
-				if(this.id=="="){
-					var result=eval(history);
+				if(this.id == "="){
+					var result = eval(history);
 					printOutput(result);
 					printHistory("");
 				}

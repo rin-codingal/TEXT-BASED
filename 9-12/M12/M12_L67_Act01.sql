@@ -15,4 +15,4 @@ INSERT INTO supplier(SupNum, SupName, SupStatus, SupCity) VALUES
 ("S05", "Amber", 10, "London");
 
 -- displaying all the data
-SELECt * from supplier;
+SELECT * from supplier;

@@ -16,8 +16,8 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
-num1 = int(input("Enter Number 1"))
-num2 = int(input("Enter Number 2"))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
 print("Sum :", add(num1, num2))
 print("Difference :", subtract(num1, num2))

@@ -2,7 +2,7 @@ print("What is the type of above given database")
 print("1) Relational Database")
 print("2) Non-Relational Database")
 
-answer = int(input("Enter your guess here..."))
+answer = int(input("Enter your guess here: "))
 
 if answer == 2:
     print("You guessed it right!")

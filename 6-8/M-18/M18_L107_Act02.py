@@ -1,5 +1,5 @@
 rows = int(input("Please Enter the total Number of Rows  : "))
-number = 1 #initialise by 1
+number = 7 #initialise by 1
 
 print("Floyd's Triangle") 
 
