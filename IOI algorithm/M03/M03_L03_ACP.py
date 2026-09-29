@@ -48,8 +48,7 @@ def binary_search(seats, target):
 
 index, steps = binary_search(seat_numbers, target_seat)
 
-print("
-Binary Search Result:")
+print("Binary Search Result:")
 if index != -1:
     print("Seat found at index:", index)
 else:
@@ -88,8 +87,7 @@ recursive_index = recursive_binary_search(
     len(seat_numbers) - 1
 )
 
-print("
-Recursive Binary Search Result:")
+print("Recursive Binary Search Result:")
 if recursive_index != -1:
     print("Seat found at index:", recursive_index)
 else:
@@ -100,8 +98,7 @@ print("Space Complexity: O(log n) because of the call stack")
 
 
 # PART 3 — COMPLEXITY LADDER
-print("
-================================")
+print("================================")
 print("COMPLEXITY LADDER")
 print("================================")
 print("O(1): Directly checking one fixed seat")
@@ -112,8 +109,7 @@ print("================================")
 
 
 # FINAL SUMMARY
-print("
-SUMMARY")
+print("SUMMARY")
 print("Binary search is faster than checking every seat one by one.")
 print("It works only when the seat list is sorted.")
 print("Recursive binary search also uses O(log n) time.")

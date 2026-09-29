@@ -22,8 +22,7 @@ print("Quiz Scores:", quiz_scores)
 
 first_score = quiz_scores[0]
 
-print("
-PART 1: Direct Access")
+print("PART 1: Direct Access")
 print("First Student Score:", first_score)
 print("Time Complexity: O(1)")
 print("Theta Notation: Theta(1)")
@@ -42,8 +41,7 @@ target_score = 88
 steps = 0
 found = False
 
-print("
-PART 2: Linear Search")
+print("PART 2: Linear Search")
 print("Searching for score:", target_score)
 
 for score in quiz_scores:
@@ -71,8 +69,7 @@ print("Reason: The program may need to check many scores.")
 # This compares every score with every other score.
 # It uses one loop inside another loop.
 
-print("
-PART 3: Pair Comparison")
+print("PART 3: Pair Comparison")
 pair_steps = 0
 
 for score1 in quiz_scores:
@@ -88,8 +85,7 @@ print("Reason: A nested loop compares every score with every other score.")
 # PART 4 - Best, Average, Worst Case Demo
 # --------------------------------
 
-print("
-PART 4: Case Comparison")
+print("PART 4: Case Comparison")
 
 best_case_score = 45
 average_case_score = 85
