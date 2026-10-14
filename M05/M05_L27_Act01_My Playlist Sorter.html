@@ -70,7 +70,8 @@
 
         <script>
             var songs = ["Zoom", "Bounce", "Glow", "Rush", "Spark"];   // TOPIC 1 & 2
-            var plays = [320, 85, 210, 50, 175];                        // TOPIC 3
+
+            var plays = [320, 85, 210, 50, 175];    // TOPIC 3
 
             document.getElementById("nameResult").innerHTML  = "Songs: " + songs;
             document.getElementById("countResult").innerHTML = "Plays: " + plays;
@@ -85,7 +86,7 @@
                 songs.sort(); 
                 songs.reverse(); 
                 document.getElementById("nameResult").innerHTML = "Z to A: " + songs; 
-            }
+            } // Abdul until this line
 
             function sortLeast() { 
                 plays.sort(function(a,b){return a-b;}); 
@@ -98,8 +99,8 @@
             }
             
             function addLabel()  { 
-                var l = plays.map(function(c){return c+" plays";}); 
-                document.getElementById("labelResult").innerHTML = "Labelled: " + l; 
+                var L = plays.map(function(c){return c+" plays";}); 
+                document.getElementById("labelResult").innerHTML = "Labelled: " + L; 
             }
         </script>
     </body>

@@ -1,8 +1,3 @@
-# ============================================================
-# Query with Subquery
-# Activity: Recipe Explorer
-# ============================================================
-
 import sqlite3
 import pandas as pd
 
@@ -52,7 +47,7 @@ col_alias = pd.read_sql(
 )
 print("Column aliases -- dish, style, time:")
 print(col_alias)
-print()
+print() # Emmanuel until this line
 
 # ---- PART 3: Alias for Tables ----
 
@@ -73,7 +68,7 @@ large_ingr = pd.read_sql(
     "SELECT recipe_name AS dish, cuisine AS style "
     "FROM recipe "
     "WHERE recipe_id IN ("
-    "SELECT recipe_id FROM ingredient WHERE quantity_g > 100"
+        "SELECT recipe_id FROM ingredient WHERE quantity_g > 100"
     ")",
     conn
 )

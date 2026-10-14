@@ -13,15 +13,23 @@ print("First three:", classmates[:3])
 # STEP 3 - Modify the list
 classmates.append("Meera")
 print("\nAfter adding Meera:", classmates)
+
 classmates.remove("Dev")
 print("After removing Dev:", classmates)
+
 classmates.sort()
 print("Sorted alphabetically:", classmates)
+
 classmates.reverse()
 print("Reversed:", classmates)
 
 # STEP 4 - Create a teacher dictionary
-teacher = {"name": "Mr. Sharma", "subject": "Python", "experience": 5}
+teacher = {
+    "name": "Mr. Sharma", 
+    "subject": "Python", 
+    "experience": 5
+}
+
 print("\nTeacher profile:", teacher)
 
 # STEP 5 - Dictionary operations
@@ -35,6 +43,7 @@ print("Updated teacher profile:", teacher)
 # STEP 6 - Convert lists to a student directory
 roll_numbers = [1, 2, 3, 4, 5]
 names = ["Aarav", "Priya", "Rahul", "Sneha", "Meera"]
+
 student_directory = dict(zip(roll_numbers, names))
 print("\nStudent Directory:", student_directory)
 print("Student at Roll 3:", student_directory[3])

@@ -13,6 +13,6 @@ class Parrot:
 # instantiate the object
 blu = Parrot("Blue", 10)
 
-# call our instance methods
+# call our methods
 print(blu.sing("'Happy'"))
 print(blu.dance())
