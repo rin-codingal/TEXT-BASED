@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
+    <head>        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <title>Calculator</title>
+    </head>
     <body>
         <h1>Simple Calculator</h1>
         <p>Perform all Operations using JavaScript</p>
-        <p id="add"></p>
-        <p id="sub"></p>
-        <p id="mul"></p>
-        <p id="div"></p>
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <p id="result4"></p>
 
         <script>
             var num1 = 10;
@@ -15,10 +20,11 @@
             var sub = num1 - num2;
             var mul = num1 * num2;
             var div = num1 / num2;
-            document.getElementById("add").innerHTML = "The added value is: " + add;
-            document.getElementById("sub").innerHTML = "The subtracted value is: " + sub;
-            document.getElementById("mul").innerHTML = "The multiplied value is: " + mul;
-            document.getElementById("div").innerHTML = "The divided value is: " + div;
+            
+            document.getElementById("result1").innerHTML = "The added value is: " + add;
+            document.getElementById("result2").innerHTML = "The subtracted value is: " + sub;
+            document.getElementById("result3").innerHTML = "The multiplied value is: " + mul;
+            document.getElementById("result4").innerHTML = "The divided value is: " + div;
         </script>
     </body>
 </html>

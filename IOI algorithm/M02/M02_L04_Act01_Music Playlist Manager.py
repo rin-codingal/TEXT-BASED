@@ -2,10 +2,11 @@
 
 class Playlist:
     # STEP 1 - Parameterized Constructor: runs the moment the playlist is created
-    def __init__(self, name, genre):
-        self.name = name
-        self.genre = genre
+    def __init__(self, nm, gnr):
+        self.name = nm
+        self.genre = gnr
         self.songs = []
+
         print(f"Playlist '{self.name}' ({self.genre}) is ready!")
 
     # STEP 2 - Add a song to the playlist
@@ -39,7 +40,11 @@ my_playlist = Playlist("Road Trip Mix", "Pop")
 
 # STEP 6 - Menu-driven program using the Playlist class
 while True:
-    print("\n1. Add Song  2. Remove Song  3. View Playlist  4. Delete & Quit")
+    print("\n1. Add Song")
+    print("2. Remove Song")
+    print("3. View Playlist")
+    print("4. Delete & Quit")
+    
     choice = input("Enter your choice: ")
 
     if choice == "1":

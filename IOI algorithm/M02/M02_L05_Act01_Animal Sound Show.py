@@ -4,9 +4,9 @@ from abc import ABC, abstractmethod
 # Animal inherits from ABC — this makes it an abstract class (Abstraction)
 class Animal(ABC):
     # Parent constructor — stores attributes shared by ALL animals
-    def __init__(self, name, habitat):
-        self.name = name
-        self.habitat = habitat
+    def __init__(self, nm, hbt):
+        self.name = nm
+        self.habitat = hbt
 
     # Concrete method — all child classes inherit this for free
     def display(self):

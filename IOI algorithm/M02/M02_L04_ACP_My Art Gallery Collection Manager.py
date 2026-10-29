@@ -1,8 +1,8 @@
 class ArtGallery:
     # Constructor with parameters
-    def __init__(self, gallery_name, location):
-        self.gallery_name = gallery_name
-        self.location = location
+    def __init__(self, gall_nm, Loc):
+        self.gallery_name = gall_nm
+        self.location = Loc
 
         # Default attribute initialization
         self.artworks = []
@@ -40,7 +40,6 @@ class ArtGallery:
 
 
 # Object Lifecycle: object creation
-
 gallery = ArtGallery("Creative Canvas Gallery", "Bengaluru")
 
 # Menu-driven OOP program

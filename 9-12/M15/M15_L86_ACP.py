@@ -7,10 +7,9 @@ august = [17, 5, 2, 11, 1, 8, 29]
 plt.plot(day,july,"g", linestyle="dotted",marker="o", linewidth=3,label="July")
 plt.plot(day,august,"r", linestyle="dashed",marker="D", linewidth=3,label="August")
 
-plt.title("Birth Rate")
+plt.title("Monthly Savings")
 plt.xlabel("Day")
-plt.ylabel("Birth Rate")
-
+plt.ylabel("Month")
 
 plt.ylim(1,30)
 
